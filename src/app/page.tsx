@@ -177,14 +177,6 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
-        </Section>
-        <Section>
           <h2 className="text-xl font-bold">Interests</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.interests.map((interest) => {
