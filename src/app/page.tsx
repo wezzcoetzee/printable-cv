@@ -114,22 +114,24 @@ export default function Page() {
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
-
-                      <span className="inline-flex gap-x-1">
-                        {work.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs"
-                            key={badge}
-                          >
-                            {badge}
-                          </Badge>
-                        ))}
-                      </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {work.start} - {work.end}
                     </div>
+                  </div>
+
+                  <div>
+                    <span className="inline-flex gap-x-1">
+                      {work.badges.map((badge) => (
+                        <Badge
+                          variant="secondary"
+                          className="align-middle text-xs"
+                          key={badge}
+                        >
+                          {badge}
+                        </Badge>
+                      ))}
+                    </span>
                   </div>
 
                   <h4 className="font-mono text-sm leading-none">
@@ -140,11 +142,11 @@ export default function Page() {
                   {work.description}
                 </CardContent>
                 <CardFooter>
-                  <div className="mt-2 inline-flex gap-x-1">
+                  <div className="mt-2 inline-flex flex-wrap gap-x-1">
                     {work.technologies.map((technology) => (
                       <Badge
                         variant="secondary"
-                        className="align-middle text-xs"
+                        className="mb-2 align-middle text-xs"
                         key={technology}
                       >
                         {technology}

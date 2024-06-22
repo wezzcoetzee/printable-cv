@@ -67,7 +67,7 @@ export const RESUME_DATA = {
       company: "WebDotNext",
       link: "https://wezzcoetzee.com",
       badges: ["South Africa", "The Netherlands", "Consulting"],
-      title: "Director | Architect | Lead Developer",
+      title: "Founder | Architect | Lead Developer",
       technologies: [
         "Angular",
         "Azure",
@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "Current",
       description:
-        "Director of WebDotNext. Providing software solutions for clients needs.",
+        "Founder of WebDotNext. Providing software solutions for clients needs.",
     },
     {
       company: "Derivco",
@@ -103,7 +103,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2021",
       description:
-        "Technical lead and architect for the lobby for one of Derivco's largest operators. Created the lobby architecture, lead a team of developers (both locally and abroad), added additional supporting services (brand migrations, regulated markets). Would be loaned our to teams having issues that needed creative solutions.",
+        "Technical lead and architect for the lobby for one of Derivco's largest operators. Created the lobby architecture, lead a team of developers (both locally and abroad), added additional supporting services (brand migrations, regulated markets). Would be secondered our to teams having issues that needed creative solutions.",
     },
     {
       company: "Derivco",
