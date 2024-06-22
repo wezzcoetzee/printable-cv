@@ -5,9 +5,10 @@ export const RESUME_DATA = {
   initials: "WC",
   location: "The Hague, The Netherlands, CET",
   locationLink: "https://www.google.com/maps/place/The+Hague",
-  about: "Senior Software Engineer | C#, Cloud, Angular and Blockchain",
+  about:
+    "Senior software engineer | Tech lead | Working with event driven micro services architecture | Cloud enthusiast | Exploring Web3",
   summary:
-    "I am a Fullstack Software Engineer with 10 years of experience in developing mission-critical systems. Over the years, I have had the opportunity to work with a variety of technologies including C#, Angular, Kafka, Micro Services, Docker, Kubernetes, GraphQL, SQL, and Mongo, among others. My expertise in these areas allows me to design and develop robust systems that meet the needs of clients and end-users.",
+    "I am a Fullstack Software Engineer with over 10 years of experience in developing mission-critical systems. Over the years, I have had the opportunity to work with a variety of technologies including C#, Angular, React, Kafka, Micro Services, Docker, Kubernetes, GraphQL, SQL, and Mongo, among others. My expertise in these areas allows me to design and develop robust systems that meet the needs of clients and end-users.",
   avatarUrl: "https://avatars.githubusercontent.com/u/15249642?v=4",
   personalWebsiteUrl: "https://www.wezzcoetzee.com",
   contact: {
