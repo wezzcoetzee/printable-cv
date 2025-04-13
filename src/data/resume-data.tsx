@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "The Hague, The Netherlands, CET",
   locationLink: "https://www.google.com/maps/place/The+Hague",
   about:
-    "Senior software engineer | Tech lead | Working with event driven micro services architecture | Cloud enthusiast | Exploring Web3",
+    "Senior Software Engineer | Tech Lead | Working with Event Driven Micro Services Architecture | Cloud Enthusiast | Exploring Web3",
   summary:
     "I am a Fullstack Software Engineer with over 10 years of experience in developing mission-critical systems. Over the years, I have had the opportunity to work with a variety of technologies including C#, Angular, React, Kafka, Micro Services, Docker, Kubernetes, GraphQL, SQL, and Mongo, among others. My expertise in these areas allows me to design and develop robust systems that meet the needs of clients and end-users.",
   avatarUrl: "https://avatars.githubusercontent.com/u/15249642?v=4",
@@ -43,10 +43,10 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Capgemini",
-      link: "https://www.capgemini.com",
-      badges: ["The Netherlands", "Consulting"],
-      title: "Senior Software Engineer | Technical Team Lead",
+      company: "Eneco",
+      link: "https://www.eneco.nl",
+      badges: ["The Netherlands"],
+      title: "Senior Software Engineer",
       technologies: [
         "Azure",
         "C#",
@@ -59,10 +59,32 @@ export const RESUME_DATA = {
         "ServiceBus",
         "SQL",
       ],
-      start: "2021",
+      start: "2024 (2022)",
       end: "Current",
       description:
-        "Technical lead for a energy provider in the Netherlands, building a Virtual Power Plant to help their sustainability goals.",
+        "Senior Software Developer working for the VPP Core Team. Building and architecting the core dispatching and monitoring services for the Virtual Power Plant.",
+    },
+    {
+      company: "Capgemini",
+      link: "https://www.capgemini.com",
+      badges: ["The Netherlands", "Consulting"],
+      title: "Managing Consultant",
+      technologies: [
+        "Azure",
+        "C#",
+        "Cosmos",
+        "Docker",
+        "GraphQL",
+        "Kafka",
+        "Mongo",
+        "Polly",
+        "ServiceBus",
+        "SQL",
+      ],
+      start: "2022",
+      end: "2024",
+      description:
+        "Technical lead for a energy provider in the Netherlands, building a Virtual Power Plant to help their sustainability goals. The VPP is a platform that aggregates and optimizes the use of energy assets, such as solar panels, batteries, and wind turbines to provide grid services and support the transition to a more sustainable energy system.",
     },
     {
       company: "WebDotNext",
@@ -79,7 +101,7 @@ export const RESUME_DATA = {
         "TypeScript",
       ],
       start: "2021",
-      end: "Current",
+      end: "2025",
       description:
         "Founder of WebDotNext. Providing software solutions for clients needs.",
     },
@@ -102,7 +124,7 @@ export const RESUME_DATA = {
         "TypeScript",
       ],
       start: "2018",
-      end: "2021",
+      end: "2022",
       description:
         "Technical lead and architect for the lobby for one of Derivco's largest operators. Created the lobby architecture, lead a team of developers (both locally and abroad), added additional supporting services (brand migrations, regulated markets). Would be secondered our to teams having issues that needed creative solutions.",
     },
