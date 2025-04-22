@@ -160,22 +160,21 @@ export const RESUME_DATA = {
     },
   ],
   interests: [
-    "Animals",
-    "Blockchain",
-    "Golf",
-    "Investing",
-    "Leadership",
-    "Mentoring",
-    "Performance",
     "Software Architecture/Design",
     "Software Development",
-    "Sustainability",
+    "Blockchain",
+    "Performance",
+    "Leadership",
+    "Mentoring",
+    "Golf",
+    "Investing",
+    "Animals",
     "Travel",
   ],
   projects: [
     {
       title: "Personal Website",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Bun"],
+      techStack: ["TypeScript", "Next.js", "Bun"],
       description: "My personal website",
       link: {
         label: "wezzcoetzee.com",
@@ -184,18 +183,17 @@ export const RESUME_DATA = {
     },
     {
       title: "WebDotNext",
-      techStack: ["Business"],
+      techStack: ["TypeScript", "Next.js", "Bun"],
       description:
-        "My business where I create solutions together with my clients to service their digital needs.",
-      // link: {
-      //   label: "wezzcoetzee.com",
-      //   href: "https://www.wezzcoetzee.com",
-      // },
+        "A small tool to help traders manage their risk when trading.",
+      link: {
+        label: "whatsriskmanagement.com",
+        href: "https://whatsriskmanagement.com",
+      },
     },
     {
       title: "GMoney",
       techStack: [
-        "WebDotNext",
         "React Native",
         "Android Studio",
         "XCode",
@@ -211,7 +209,6 @@ export const RESUME_DATA = {
     {
       title: "Bobtail",
       techStack: [
-        "WebDotNext",
         "Angular",
         "Azure",
         "C#",
@@ -229,7 +226,6 @@ export const RESUME_DATA = {
     {
       title: "Ultra Pet",
       techStack: [
-        "WebDotNext",
         "Angular",
         "Azure",
         "C#",
@@ -247,7 +243,6 @@ export const RESUME_DATA = {
     {
       title: "Yapper",
       techStack: [
-        "WebDotNext",
         "Angular",
         "Azure",
         "C#",
