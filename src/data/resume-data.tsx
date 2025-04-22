@@ -182,7 +182,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "WebDotNext",
+      title: "WhatsRiskManagement",
       techStack: ["TypeScript", "Next.js", "Bun"],
       description:
         "A small tool to help traders manage their risk when trading.",
