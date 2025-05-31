@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/command";
 import { Button } from "./ui/button";
 import { CommandIcon } from "lucide-react";
+import { DialogTitle } from "./ui/dialog";
 
 interface Props {
   links: { url: string; title: string }[];
@@ -51,6 +52,7 @@ export const CommandMenu = ({ links }: Props) => {
         <CommandIcon className="my-6 size-6" />
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
+        <DialogTitle className="sr-only">Command Menu</DialogTitle>
         <CommandInput placeholder="Type a command or search..." />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
