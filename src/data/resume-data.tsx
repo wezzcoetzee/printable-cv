@@ -7,10 +7,6 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/The+Hague",
   about:
     "Senior Software Engineer | Tech Lead | Working with Event Driven Micro Services Architecture | Cloud Enthusiast | Exploring Web3",
-  summary: [
-    "As a Software Engineer with over 10 years of experience, I specialize in crafting mission-critical systems using a diverse array of technologies. This broad expertise allows me to make informed decisions in software design and development.",
-    "My core strength lies in tackling complex challenges—be it debugging intricate system issues, implementing sophisticated requirements, or optimizing performance bottlenecks. I excel at designing scalable and reliable systems that meet the highest standards of quality. Additionally, I bring proven leadership skills, guiding teams, engaging stakeholders, and mentoring junior developers."
-  ],
   avatarUrl: "https://avatars.githubusercontent.com/u/15249642?v=4",
   personalWebsiteUrl: "https://www.wezzcoetzee.com",
   contact: {
@@ -34,6 +30,10 @@ export const RESUME_DATA = {
       },
     ],
   },
+  profile: [
+    "As a Software Engineer with over 10 years of experience, I specialize in crafting mission-critical systems using a diverse array of technologies. This broad expertise allows me to make informed decisions in software design and development.",
+    "My core strength lies in tackling complex challenges—be it debugging intricate system issues, implementing sophisticated requirements, or optimizing performance bottlenecks. I excel at designing scalable and reliable systems that meet the highest standards of quality. Additionally, I bring proven leadership skills, guiding teams, engaging stakeholders, and mentoring junior developers.",
+  ],
   education: [
     {
       school: "Nelson Mandela Metropolitan University (NMMU)",
@@ -195,12 +195,7 @@ export const RESUME_DATA = {
     },
     {
       title: "GMoney",
-      techStack: [
-        "React Native",
-        "Android Studio",
-        "XCode",
-        "XState",
-      ],
+      techStack: ["React Native", "Android Studio", "XCode", "XState"],
       description:
         "A mobile banking application that aims to bring banking to the unbanked in Africa.",
       link: {
@@ -210,14 +205,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Bobtail",
-      techStack: [
-        "Angular",
-        "Azure",
-        "C#",
-        "NgRX",
-        "SQL",
-        "TypeScript",
-      ],
+      techStack: ["Angular", "Azure", "C#", "NgRX", "SQL", "TypeScript"],
       description:
         "An application for Bobtail dog food, where user's can upload their purchases and claim insurance payouts.",
       link: {
@@ -227,14 +215,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Ultra Pet",
-      techStack: [
-        "Angular",
-        "Azure",
-        "C#",
-        "NgRX",
-        "SQL",
-        "TypeScript",
-      ],
+      techStack: ["Angular", "Azure", "C#", "NgRX", "SQL", "TypeScript"],
       description:
         "An application for Ultra Pet pet food, where user's can upload their purchases to qualify for insurance benefits.",
       link: {
@@ -244,14 +225,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Yapper",
-      techStack: [
-        "Angular",
-        "Azure",
-        "C#",
-        "NgRX",
-        "SQL",
-        "TypeScript",
-      ],
+        techStack: ["Angular", "Azure", "C#", "NgRX", "SQL", "TypeScript"],
       description:
         "A social application used to track your dogs habbits and shared them with the community.",
       link: {

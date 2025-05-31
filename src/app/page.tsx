@@ -98,12 +98,12 @@ export default function Page() {
           </Avatar>
         </div>
         <Section>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-xl font-bold">Profile</h2>
 
-          {RESUME_DATA.summary.map((summary, index) => {
+          {RESUME_DATA.profile.map((paragraph, index) => {
             return (
               <p key={index} className="text-pretty font-mono text-sm text-muted-foreground">
-                {summary}
+                {paragraph}
               </p>
             );
           })}
