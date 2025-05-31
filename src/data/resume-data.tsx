@@ -247,7 +247,16 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "WhatsRiskManagement",
+      title: "Occasional Writer",
+      techStack: ["Writing"],
+      description: "I occassionally write about software development and other topics on Medium.com.",
+      link: {
+        label: "medium.com",
+        href: "https://medium.com/@wezzcoetzee",
+      },
+    },
+    {
+      title: "What'ss Risk Management?",
       techStack: ["TypeScript", "Next.js", "Bun"],
       description:
         "A small tool to help traders manage their risk when trading.",
