@@ -13,10 +13,11 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import { AchievementCard } from "@/components/achievement-card";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
+  title: RESUME_DATA.name,
+  description: RESUME_DATA.about,
 };
 
 export default function Page() {
@@ -98,10 +99,15 @@ export default function Page() {
           </Avatar>
         </div>
         <Section>
-          <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
-            {RESUME_DATA.summary}
-          </p>
+          <h2 className="text-xl font-bold">Profile</h2>
+
+          {RESUME_DATA.profile.map((paragraph, index) => {
+            return (
+              <p key={index} className="text-pretty font-mono text-sm text-muted-foreground">
+                {paragraph}
+              </p>
+            );
+          })}
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
@@ -139,7 +145,15 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  <ul>
+                  {work.description.map((paragraph, index) => {
+                    return (
+                      <li key={index} className="text-pretty font-mono text-xs text-muted-foreground list-disc ml-4">
+                        {paragraph}
+                      </li>
+                    );
+                  })}
+                  </ul>
                 </CardContent>
                 <CardFooter>
                   <div className="mt-2 inline-flex flex-wrap gap-x-1">
@@ -178,6 +192,23 @@ export default function Page() {
             );
           })}
         </Section>
+
+        <Section className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Achievements</h2>
+          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
+            {RESUME_DATA.achievements.map((achievement) => {
+              return (
+                <AchievementCard
+                  key={achievement.title}
+                  title={achievement.title}
+                  description={achievement.description}
+                  date={achievement.date}
+                />
+              );
+            })}
+          </div>
+        </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Interests</h2>
           <div className="flex flex-wrap gap-1">
