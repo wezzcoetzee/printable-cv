@@ -7,8 +7,10 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/The+Hague",
   about:
     "Senior Software Engineer | Tech Lead | Working with Event Driven Micro Services Architecture | Cloud Enthusiast | Exploring Web3",
-  summary:
-    "I am a Fullstack Software Engineer with over 10 years of experience in developing mission-critical systems. Over the years, I have had the opportunity to work with a variety of technologies including C#, Angular, React, Kafka, Micro Services, Docker, Kubernetes, GraphQL, SQL, and Mongo, among others. My expertise in these areas allows me to design and develop robust systems that meet the needs of clients and end-users.",
+  summary: [
+    "As a Software Engineer with over 10 years of experience, I specialize in crafting mission-critical systems using a diverse array of technologies. This broad expertise allows me to make informed decisions in software design and development.",
+    "My core strength lies in tackling complex challenges—be it debugging intricate system issues, implementing sophisticated requirements, or optimizing performance bottlenecks. I excel at designing scalable and reliable systems that meet the highest standards of quality. Additionally, I bring proven leadership skills, guiding teams, engaging stakeholders, and mentoring junior developers."
+  ],
   avatarUrl: "https://avatars.githubusercontent.com/u/15249642?v=4",
   personalWebsiteUrl: "https://www.wezzcoetzee.com",
   contact: {
@@ -36,7 +38,7 @@ export const RESUME_DATA = {
     {
       school: "Nelson Mandela Metropolitan University (NMMU)",
       degree:
-        "NDip Information Technologies, specializing in Software Engineering.",
+        "NDip Information Technologies (Software Engineering)",
       start: "2010",
       end: "2013",
     },
