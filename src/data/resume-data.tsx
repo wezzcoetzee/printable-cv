@@ -118,13 +118,13 @@ export const RESUME_DATA = {
       start: "Oct 2019",
       end: "Mar 2022",
       description: [
-        "Architected the new online casino lobby product, which also included:",
+        "Designed and developed the new online casino lobby product, which also included:",
         "Adding a BFF API to handle integrating with multiple backend systems, and added caching.",
         "Moving to using the Angular framework, and making use of features like lazy loading, etc.",
         "Designed a translation solution for banking to reduce testing times.",
         "Set up Azure CICD pipelines for the lobby",
         "Lead an initiative to implement LaunchDarkly feature flags to reduce production incidents.",
-        "Coached and mentored 3 developers and 2 automation engineers."
+        "Coached and mentored developers and automation engineers."
       ]
     },
     {
@@ -144,9 +144,9 @@ export const RESUME_DATA = {
       start: "Nov 2017",
       end: "Sept 2019",
       description: [
-        "Developed an integration for our Octopus builds that used the Swagger documentation to build and publish an NPM package to speed up integrations between teams.",
+        "Developed an integration for our Octopus builds that used the Swagger documentation to create and publish an NPM package to speed up integrations between teams.",
         "Developed software used to simulate a game being played to test the math models for games.",
-        "Took over development of the new casino lobby."
+        "Took over the development of the new casino lobby."
       ]
     },
     {
@@ -202,7 +202,7 @@ export const RESUME_DATA = {
       end: "Sep 2015",
       description: [
         "Helped develop a platform used to manage charitable donations in money and time for tax benefits",
-        "Create a monitoring solution using New Relic to monitor multiple websites to reduce incidents by 30%"
+        "Create a monitoring solution using New Relic to monitor customer websites."
       ]
     },
   ],
