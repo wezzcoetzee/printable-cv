@@ -262,16 +262,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "What'ss Risk Management?",
-      techStack: ["TypeScript", "Next.js", "Bun"],
-      description:
-        "A small tool to help traders manage their risk when trading.",
-      link: {
-        label: "whatsriskmanagement.com",
-        href: "https://whatsriskmanagement.com",
-      },
-    },
-    {
       title: "GMoney",
       techStack: ["React Native", "Android Studio", "XCode", "XState"],
       description:
