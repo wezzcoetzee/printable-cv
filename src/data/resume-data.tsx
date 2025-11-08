@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "The Hague, The Netherlands, CET",
   locationLink: "https://www.google.com/maps/place/The+Hague",
   about:
-    "Senior Software Engineer | Tech Lead | Working with Event Driven Micro Services Architecture | Cloud Enthusiast | Exploring Web3",
+    "Engineering Manager | Tech Lead",
   avatarUrl: "https://avatars.githubusercontent.com/u/15249642?v=4",
   personalWebsiteUrl: "https://www.wezzcoetzee.com",
   contact: {
@@ -48,16 +48,17 @@ export const RESUME_DATA = {
       company: "Eneco",
       link: "https://www.eneco.nl",
       badges: ["Rotterdam, The Netherlands"],
-      title: "Senior Software Engineer | Technical Lead",
+      title: "Engineering Manager | Technical Lead",
       technologies: [
         "Azure",
         "C#",
         "Cosmos",
         "Docker",
         "EventHubs",
-        "GraphQL",
         "Kafka",
-        "Mongo",,
+        "Mongo",
+        "Polly",
+        "RabbitMQ",
         "REST",
         "ServiceBus",
         "SQL"
@@ -66,15 +67,16 @@ export const RESUME_DATA = {
       end: "Current",
       description: [
         "Technical Lead for the Virtual Power Plant, a replacement for the old asset steering system.",
+        "Lead a team of 4 developers and 2 automation engineers.",
         "Lead an initiative to work out the integration between VPP and the replacement SCADA system",
-        "Architecting Layer 3, 3.5, and 4 of the Purdue model for the VPP",
-        "Lead an initiative to improve chain monitoring and reduce critical incidents",
-        "Identifying performance bottlenecks and technical improvements",
-        "Coaching and mentoring developers"
+        "Architected Layer 3, 3.5, and 4 of the Purdue model for the VPP",
+        "Led an initiative to improve chain monitoring and reduce critical incidents",
+        "Identified performance bottlenecks and technical improvements",
+        "Coached and mentored developers and automation engineers"
       ]
     },
     {
-      company: "Capgemini",
+      company: "Eneco viaCapgemini",
       link: "https://www.capgemini.com",
       badges: ["Rotterdam, The Netherlands", "Contracted to Eneco"],
       title: "Managing Consultant",
@@ -83,13 +85,14 @@ export const RESUME_DATA = {
         "C#",
         "Cosmos",
         "Docker",
-        "GraphQL",
+        "EventHubs",
         "Kafka",
         "Mongo",
         "Polly",
+        "RabbitMQ",
         "REST",
         "ServiceBus",
-        "SQL",
+        "SQL"
       ],
       start: "Mar 2022",
       end: "Sep 2024",
@@ -121,12 +124,12 @@ export const RESUME_DATA = {
       start: "Oct 2019",
       end: "Mar 2022",
       description: [
-        "Designed and developed the new online casino lobby product, which also included:",
-        "Adding a BFF API to handle integrating with multiple backend systems, and added caching.",
-        "Moving to using the Angular framework, and making use of features like lazy loading, etc.",
+        "Designed and developed the new online casino lobby product to address performance issues and improve the user experience.",
+        "Added a BFF API to handle integrating with multiple backend systems, and added caching.",
+        "Moved to using the Angular framework, and making use of features like lazy loading, etc.",
         "Designed a translation solution for banking to reduce testing times.",
         "Set up Azure CICD pipelines for the lobby",
-        "Lead an initiative to implement LaunchDarkly feature flags to reduce production incidents.",
+        "Led an initiative to implement LaunchDarkly feature flags to reduce production incidents.",
         "Coached and mentored developers and automation engineers."
       ]
     },
@@ -149,7 +152,7 @@ export const RESUME_DATA = {
       end: "Sept 2019",
       description: [
         "Developed an integration for our Octopus builds that used the Swagger documentation to create and publish an NPM package to speed up integrations between teams.",
-        "Developed software used to simulate a game being played to test the math models for games.",
+        "Developed software used to simulate a game being played to test the math models for games. This ensured regulatory compliance and sped up time to market.",
         "Took over the development of the new casino lobby."
       ]
     },
@@ -171,7 +174,7 @@ export const RESUME_DATA = {
       start: "Nov 2016",
       end: "Oct 2017",
       description: [
-        "Developed a mobile application that was used to manage and find meeting rooms for our Durban office of 2500 people. This project won an award; see achievements.",
+        "Developed a mobile application that was used to manage and find meeting rooms for our Durban office of 2500 people. This project won an award; see achievements section.",
         "Developed a platform used in the provisioning of Virtual Machines, reducing the time taken from 4-6 hours to 30 minutes.",
         "Spoke at a conference held by Derivco about using the Iconics Framework to develop a mobile application."
       ]
