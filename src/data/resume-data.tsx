@@ -3,7 +3,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Wesley Coetzee",
   initials: "WC",
-  location: "The Hague, The Netherlands, CET",
+  location: "Auckland, New Zealand, NZST",
   locationLink: "https://www.google.com/maps/place/The+Hague",
   about:
     "Engineering Manager | Tech Lead",
@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://www.wezzcoetzee.com",
   contact: {
     email: "info@wezzcoetzee.com",
-    tel: "+31628912592",
+    tel: "+64225316967",
     social: [
       {
         name: "GitHub",
@@ -45,6 +45,20 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Idexx",
+      link: "https://www.idexx.com",
+      badges: ["Auckland, New Zealand"],
+      title: "Senior Software Engineer",
+      technologies: ["AWS", "Go", "PostgreSQL", "TypeScript", "NestJs", "Kafka", "Event Streaming", "DynamoDB"],
+      start: "Dec 2025",
+      end: "Current",
+      description: [
+        "Technical Lead for new Mass Communications System.",
+        "Developed integration to bring segmentations to communications.",
+        "Lead implentation of Kafka and event streaming into organization.",
+      ]
+    },
+    {
       company: "Eneco",
       link: "https://www.eneco.nl",
       badges: ["Rotterdam, The Netherlands"],
@@ -64,7 +78,7 @@ export const RESUME_DATA = {
         "SQL"
       ],
       start: "Sep 2024 (Mar 2022)",
-      end: "Current",
+      end: "Nov 2025",
       description: [
         "Technical Lead for the Virtual Power Plant, a replacement for the old asset steering system.",
         "Lead a team of 4 developers and 2 automation engineers.",
@@ -306,7 +320,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Yapper",
-        techStack: ["Angular", "Azure", "C#", "NgRX", "SQL", "TypeScript"],
+      techStack: ["Angular", "Azure", "C#", "NgRX", "SQL", "TypeScript"],
       description:
         "A social application used to track your dogs habbits and shared them with the community.",
       link: {
