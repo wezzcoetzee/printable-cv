@@ -18,11 +18,48 @@ import { AchievementCard } from "@/components/achievement-card";
 export const metadata: Metadata = {
   title: RESUME_DATA.name,
   description: RESUME_DATA.about,
+  alternates: {
+    canonical: "https://www.wezzcoetzee.com",
+  },
 };
 
 export default function Page() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: RESUME_DATA.name,
+    jobTitle: RESUME_DATA.about,
+    url: RESUME_DATA.personalWebsiteUrl,
+    image: RESUME_DATA.avatarUrl,
+    email: RESUME_DATA.contact.email,
+    telephone: RESUME_DATA.contact.tel,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Auckland",
+      addressCountry: "New Zealand",
+    },
+    sameAs: [
+      RESUME_DATA.contact.social.find((s) => s.name === "LinkedIn")?.url,
+      RESUME_DATA.contact.social.find((s) => s.name === "GitHub")?.url,
+      RESUME_DATA.contact.social.find((s) => s.name === "X")?.url,
+    ].filter(Boolean),
+    worksFor: RESUME_DATA.work.map((job) => ({
+      "@type": "Organization",
+      name: job.company,
+      url: job.link,
+    })),
+    alumniOf: RESUME_DATA.education.map((edu) => ({
+      "@type": "EducationalOrganization",
+      name: edu.school,
+    })),
+  };
+
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
