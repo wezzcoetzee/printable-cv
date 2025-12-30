@@ -3,7 +3,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 
 export const runtime = "edge";
 
-export const alt = "Wesley Coetzee - Senior Software Engineer";
+export const alt = "Wesley Coetzee - Engineering Manager & Tech Lead";
 export const size = {
   width: 1200,
   height: 630,

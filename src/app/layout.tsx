@@ -8,7 +8,7 @@ import Script from "next/script";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.wezzcoetzee.com"),
   title: {
-    default: "Wesley Coetzee | Engineering Manager | Tch Lead | Software Engineer",
+    default: "Wesley Coetzee | Engineering Manager & Tech Lead",
     template: "%s | Wesley Coetzee"
   },
   description: "Engineering Manager and Technical Lead with over 10 years of experience in software development. Specializing in crafting mission-critical systems using Azure, AWS, C#, TypeScript, and more.",
@@ -19,24 +19,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_NZ",
     url: "https://www.wezzcoetzee.com",
-    title: "Wesley Coetzee | Engineering Manager | Tch Lead | Software Engineer",
+    title: "Wesley Coetzee | Engineering Manager & Tech Lead",
     description: "Engineering Manager and Technical Lead with over 10 years of experience in software development. Specializing in crafting mission-critical systems using Azure, AWS, C#, TypeScript, and more.",
     siteName: "Wesley Coetzee - Portfolio",
-    images: [
-      {
-        url: "https://avatars.githubusercontent.com/u/15249642?v=4",
-        width: 460,
-        height: 460,
-        alt: "Wesley Coetzee",
-      },
-    ],
   },
   twitter: {
-    card: "summary",
-    title: "Wesley Coetzee | Engineering Manager | Tch Lead | Software Engineer",
+    card: "summary_large_image",
+    title: "Wesley Coetzee | Engineering Manager & Tech Lead",
     description: "Engineering Manager and Technical Lead with over 10 years of experience in software development.",
     creator: "@wezzcoetzee",
-    images: ["https://avatars.githubusercontent.com/u/15249642?v=4"],
   },
   robots: {
     index: true,
@@ -51,23 +42,15 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: "/favicon.ico", sizes: "any" },
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
     apple: [
       { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
-    other: [
-      {
-        rel: "android-chrome-192x192",
-        url: "/android-chrome-192x192.png",
-      },
-      {
-        rel: "android-chrome-512x512",
-        url: "/android-chrome-512x512.png",
-      },
-    ],
   },
+  manifest: "/site.webmanifest",
 };
 
 // If loading a variable font, you don't need to specify the font weight
