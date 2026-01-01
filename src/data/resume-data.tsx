@@ -279,13 +279,33 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "What'ss Risk Management?",
+      title: "What's Risk Management?",
       techStack: ["TypeScript", "Next.js", "Bun"],
       description:
         "A small tool to help traders manage their risk when trading.",
       link: {
         label: "whatsriskmanagement.com",
         href: "https://whatsriskmanagement.com",
+      },
+    },
+    {
+      title: "Solana DCA Bot",
+      techStack: ["TypeScript", "NestJS", "Solana", "Bun"],
+      description:
+        "A bot that automates the process of buying a small amount of BTC on a regular basis.",
+      link: {
+        label: "Solana DCA Bot",
+        href: "https://github.com/wezzcoetzee/solana-dca-bot",
+      },
+    },
+    {
+      title: "Email Verification",
+      techStack: ["Go"],
+      description:
+        "A tool that helps you verify if emails exist at scale",
+      link: {
+        label: "Email Verification",
+        href: "https://github.com/wezzcoetzee/email-verification",
       },
     },
     {
