@@ -49,7 +49,7 @@ export const RESUME_DATA = {
       link: "https://www.idexx.com",
       badges: ["Auckland, New Zealand"],
       title: "Senior Software Engineer",
-      technologies: ["AWS", "Go", "PostgreSQL", "TypeScript", "NestJs", "Kafka", "Event Streaming", "DynamoDB", "React"],
+      technologies: ["AWS", "DynamoDB", "GitHub", "Go", "Kafka", "NestJs", "PostgreSQL", "React", "TypeScript"],
       start: "Dec 2025",
       end: "Current",
       description: [
@@ -199,7 +199,7 @@ export const RESUME_DATA = {
         "TypeScript",
       ],
       start: "Nov 2017",
-      end: "Sept 2019",
+      end: "Oct 2019",
       description: [
         "Developed an integration for our Octopus builds that used the Swagger documentation to create and publish an NPM package to speed up integrations between teams.",
         "Developed software used to simulate a game being played to test the math models for games. This ensured regulatory compliance and sped up time to market.",
@@ -222,7 +222,7 @@ export const RESUME_DATA = {
         "TypeScript",
       ],
       start: "Nov 2016",
-      end: "Oct 2017",
+      end: "Nov 2017",
       description: [
         "Developed a mobile application that was used to manage and find meeting rooms for our Durban office of 2500 people. This project won an award; see achievements section.",
         "Developed a platform used in the provisioning of Virtual Machines, reducing the time taken from 4-6 hours to 30 minutes.",
@@ -245,7 +245,7 @@ export const RESUME_DATA = {
         "TypeScript",
       ],
       start: "Oct 2015",
-      end: "Oct 2016",
+      end: "Nov 2016",
       description: [
         "Managed incident and ticket management software used internally.",
         "Upgraded legacy software to .NET Framework 4.6.2."
@@ -258,7 +258,7 @@ export const RESUME_DATA = {
       title: "Junior Software Engineer",
       technologies: ["Bootstrap", "C#", "CSS", "JavaScript", "KnockoutJS", "REST", "SQL"],
       start: "Feb 2014",
-      end: "Sep 2015",
+      end: "Oct 2015",
       description: [
         "Helped develop a platform used to manage charitable donations in money and time for tax benefits.",
         "Created a monitoring solution using New Relic to monitor customer websites."
@@ -266,11 +266,10 @@ export const RESUME_DATA = {
     },
   ],
   interests: [
-    "Software Design",
+    "Software Architecture",
     "Software Development",
     "Blockchain",
     "Performance Optimization",
-    "Leadership",
     "Mentoring",
     "Golf",
     "Music",
