@@ -55,14 +55,13 @@ export const RESUME_DATA = {
       description: [
         "Technical Lead for new Mass Communications System.",
         "Developed integration to bring segmentations to communications.",
-        "Lead implentation of Kafka and event streaming into organization.",
       ]
     },
     {
       company: "Eneco",
       link: "https://www.eneco.nl",
       badges: ["Rotterdam, The Netherlands"],
-      title: "Engineering Manager | Technical Lead",
+      title: "Engineering Manager",
       technologies: [
         "Azure",
         "C#",
@@ -77,8 +76,36 @@ export const RESUME_DATA = {
         "ServiceBus",
         "SQL"
       ],
-      start: "Sep 2024 (Mar 2022)",
+      start: "Jun 2025",
       end: "Nov 2025",
+      description: [
+        "Lead a cross-functional team of 4 developers and 2 automation engineers.",
+        "Led an initiative to change hosting our hosting partner, enabling us to be a true mission critical system.",
+        "Implemented multi-region setup for the VPP, enabling a more resilient system.",
+        "Helped with roadmap planning and technical debt planning for the VPP."
+      ]
+    },
+    {
+      company: "Eneco",
+      link: "https://www.eneco.nl",
+      badges: ["Rotterdam, The Netherlands"],
+      title: "Technical Lead",
+      technologies: [
+        "Azure",
+        "C#",
+        "Cosmos",
+        "Docker",
+        "EventHubs",
+        "Kafka",
+        "Mongo",
+        "Polly",
+        "RabbitMQ",
+        "REST",
+        "ServiceBus",
+        "SQL"
+      ],
+      start: "Sep 2024",
+      end: "Jun 2025",
       description: [
         "Technical Lead for the Virtual Power Plant, a replacement for the old asset steering system.",
         "Lead a team of 4 developers and 2 automation engineers.",
@@ -90,7 +117,7 @@ export const RESUME_DATA = {
       ]
     },
     {
-      company: "Eneco viaCapgemini",
+      company: "Eneco via Capgemini",
       link: "https://www.capgemini.com",
       badges: ["Rotterdam, The Netherlands", "Contracted to Eneco"],
       title: "Managing Consultant",
