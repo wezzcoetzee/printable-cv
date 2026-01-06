@@ -49,7 +49,7 @@ export const RESUME_DATA = {
       link: "https://www.idexx.com",
       badges: ["Auckland, New Zealand"],
       title: "Senior Software Engineer",
-      technologies: ["AWS", "Go", "PostgreSQL", "TypeScript", "NestJs", "Kafka", "Event Streaming", "DynamoDB"],
+      technologies: ["AWS", "Go", "PostgreSQL", "TypeScript", "NestJs", "Kafka", "Event Streaming", "DynamoDB", "React"],
       start: "Dec 2025",
       end: "Current",
       description: [
