@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       company: "Eneco",
       link: "https://www.eneco.nl",
       badges: ["Rotterdam, The Netherlands"],
-      title: "Engineering Manager",
+      title: "Engineering Manager | Principal Engineer",
       technologies: [
         "Azure",
         "C#",
