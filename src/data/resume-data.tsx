@@ -4,7 +4,7 @@ export const RESUME_DATA = {
   name: "Wesley Coetzee",
   initials: "WC",
   location: "Auckland, New Zealand, NZST",
-  locationLink: "https://www.google.com/maps/place/The+Hague",
+  locationLink: "https://www.google.com/maps/place/Auckland",
   about:
     "Engineering Manager | Tech Lead",
   avatarUrl: "https://avatars.githubusercontent.com/u/15249642?v=4",
@@ -80,9 +80,9 @@ export const RESUME_DATA = {
         "SQL",
       ],
       start: "Jun 2025",
-      end: "Nov 2025",
+      end: "Dec 2025",
       description: [
-        "Lead a cross-functional team of 4 developers and 2 automation engineers.",
+        "Led a cross-functional team of 4 developers and 2 automation engineers.",
         "Led an initiative to change our hosting provider, enabling us to be a true mission critical system.",
         "Implemented multi-region setup for the VPP, enabling a more resilient system.",
         "Helped with roadmap planning and technical debt planning for the VPP."
@@ -114,12 +114,12 @@ export const RESUME_DATA = {
       end: "Jun 2025",
       description: [
         "Technical Lead for the Virtual Power Plant, a replacement for the old asset steering system.",
-        "Lead a team of 4 developers and 2 automation engineers.",
-        "Lead an initiative to work out the integration between VPP and the replacement SCADA system",
-        "Architected Layer 3, 3.5, and 4 of the Purdue model for the VPP",
-        "Led an initiative to improve chain monitoring and reduce critical incidents",
-        "Identified performance bottlenecks and technical improvements",
-        "Coached and mentored developers and automation engineers"
+        "Led a team of 4 developers and 2 automation engineers.",
+        "Led an initiative to work out the integration between VPP and the replacement SCADA system.",
+        "Architected Layer 3, 3.5, and 4 of the Purdue model for the VPP.",
+        "Led an initiative to improve chain monitoring and reduce critical incidents.",
+        "Identified performance bottlenecks and technical improvements.",
+        "Coached and mentored developers and automation engineers."
       ]
     },
     {
@@ -147,9 +147,9 @@ export const RESUME_DATA = {
       start: "Mar 2022",
       end: "Sep 2024",
       description: [
-        "Technical Lead on the Virtual Power Plant for Eneco (more information about this in the Eneco section)",
-        "Spoke at GoTo Amsterdam about the VPP",
-        "Improved the interview process for Capgemini and led an initiative to help with the recruitment of South African developers",
+        "Technical Lead on the Virtual Power Plant for Eneco (more information about this in the Eneco section).",
+        "Spoke at GoTo Amsterdam about the VPP.",
+        "Improved the interview process for Capgemini and led an initiative to help with the recruitment of South African developers.",
       ]
     },
     {
@@ -178,7 +178,7 @@ export const RESUME_DATA = {
         "Added a BFF API to handle integrating with multiple backend systems, and added caching.",
         "Moved to using the Angular framework, and making use of features like lazy loading, etc.",
         "Designed a translation solution for banking to reduce testing times.",
-        "Set up Azure CICD pipelines for the lobby",
+        "Set up Azure CICD pipelines for the lobby.",
         "Led an initiative to implement LaunchDarkly feature flags to reduce production incidents.",
         "Coached and mentored developers and automation engineers."
       ]
@@ -247,8 +247,8 @@ export const RESUME_DATA = {
       start: "Oct 2015",
       end: "Oct 2016",
       description: [
-        "Managed incident and ticket management software used internally",
-        "Upgraded legacy software to .NET Framework 4.6.2"
+        "Managed incident and ticket management software used internally.",
+        "Upgraded legacy software to .NET Framework 4.6.2."
       ]
     },
     {
@@ -260,8 +260,8 @@ export const RESUME_DATA = {
       start: "Feb 2014",
       end: "Sep 2015",
       description: [
-        "Helped develop a platform used to manage charitable donations in money and time for tax benefits",
-        "Create a monitoring solution using New Relic to monitor customer websites."
+        "Helped develop a platform used to manage charitable donations in money and time for tax benefits.",
+        "Created a monitoring solution using New Relic to monitor customer websites."
       ]
     },
   ],
@@ -308,7 +308,7 @@ export const RESUME_DATA = {
     {
       title: "Occasional Writer",
       techStack: ["Writing"],
-      description: "I occassionally write about software development and other topics on Medium.com.",
+      description: "I occasionally write about software development and other topics on Medium.com.",
       link: {
         label: "medium.com",
         href: "https://medium.com/@wezzcoetzee",
@@ -358,7 +358,7 @@ export const RESUME_DATA = {
       title: "Bobtail",
       techStack: ["Angular", "Azure", "C#", "NgRX", "SQL", "TypeScript"],
       description:
-        "An application for Bobtail dog food, where user's can upload their purchases and claim insurance payouts.",
+        "An application for Bobtail dog food, where users can upload their purchases and claim insurance payouts.",
       link: {
         label: "bobtail.co.za",
         href: "https://portal.bobtail.co.za",
@@ -368,7 +368,7 @@ export const RESUME_DATA = {
       title: "Ultra Pet",
       techStack: ["Angular", "Azure", "C#", "NgRX", "SQL", "TypeScript"],
       description:
-        "An application for Ultra Pet pet food, where user's can upload their purchases to qualify for insurance benefits.",
+        "An application for Ultra Pet pet food, where users can upload their purchases to qualify for insurance benefits.",
       link: {
         label: "ultra-pet.co.za",
         href: "https://portal.ultra-pet.co.za",
@@ -378,7 +378,7 @@ export const RESUME_DATA = {
       title: "Yapper",
       techStack: ["Angular", "Azure", "C#", "NgRX", "SQL", "TypeScript"],
       description:
-        "A social application used to track your dogs habbits and shared them with the community.",
+        "A social application used to track your dog's habits and share them with the community.",
       link: {
         label: "yapperrewards.com",
         href: "https://portal.yapperrewards.com",
