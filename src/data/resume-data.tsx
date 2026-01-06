@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/15249642?v=4",
   personalWebsiteUrl: "https://www.wezzcoetzee.com",
   contact: {
-    email: "info@wezzcoetzee.com",
+    email: "hello@wezzcoetzee.com",
     tel: "+64225316967",
     social: [
       {
