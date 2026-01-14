@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "Auckland, New Zealand, NZST",
   locationLink: "https://www.google.com/maps/place/Auckland",
   about:
-    "Engineering Manager | Tech Lead",
+    "Tech Lead | Principal Engineer",
   avatarUrl: "https://avatars.githubusercontent.com/u/15249642?v=4",
   personalWebsiteUrl: "https://www.wezzcoetzee.com",
   contact: {
@@ -48,19 +48,20 @@ export const RESUME_DATA = {
       company: "Idexx",
       link: "https://www.idexx.com",
       badges: ["Auckland, New Zealand"],
+      about: "ezyVet is a cloud-based veterinary practice management software, and Vello is its integrated client engagement platform, developed by IDEXX to help vet clinics communicate with pet owners, automate reminders (SMS/email), handle online scheduling, and improve compliance, all working seamlessly within the ezyVet system for better efficiency and client satisfaction.",
       title: "Senior Software Engineer",
-      technologies: ["AWS", "DynamoDB", "GitHub", "Go", "Kafka", "NestJs", "PostgreSQL", "React", "TypeScript"],
+      technologies: ["AWS", "DynamoDB", "GitHub", "Go", "Kafka", "NestJs", "PostgreSQL", "React", "SendGrid", "SQS", "TypeScript"],
       start: "Dec 2025",
       end: "Current",
       description: [
-        "Technical Lead for new Mass Communications System.",
-        "Developed integration to bring segmentations to communications.",
+        "Technical Lead for Mass Communications System, enabling the sending of notifications to clients via SMS and email.",
       ]
     },
     {
       company: "Eneco",
       link: "https://www.eneco.nl",
       badges: ["Rotterdam, The Netherlands"],
+      about: "Eneco is a major, independent international energy company, primarily operating in the Netherlands, Belgium, Germany, and the UK, focused on helping consumers and businesses transition to sustainable energy, with a core mission of 'everyone's sustainable energy'.",
       title: "Engineering Manager | Principal Engineer",
       technologies: [
         "Azure",
@@ -123,7 +124,7 @@ export const RESUME_DATA = {
       ]
     },
     {
-      company: "Eneco via Capgemini",
+      company: "Capgemini contracted toEneco",
       link: "https://www.capgemini.com",
       badges: ["Rotterdam, The Netherlands", "Contracted to Eneco"],
       title: "Managing Consultant",
@@ -156,6 +157,7 @@ export const RESUME_DATA = {
       company: "Derivco",
       link: "https://derivco.co.za",
       badges: ["Durban, South Africa"],
+      about: "Derivco is a leading provider of online gaming solutions, including sports betting, casino, and poker, with a focus on delivering high-quality, secure, and user-friendly products to customers around the world.",
       title: "Senior Software Engineer | Technical Lead",
       technologies: [
         "Angular",
@@ -255,6 +257,7 @@ export const RESUME_DATA = {
       company: "CompRSA",
       link: "https://www.comprsa.com",
       badges: ["PE, South Africa"],
+      about: "CompRSA is a software development company that provides software development services to businesses and organizations.",
       title: "Junior Software Engineer",
       technologies: ["Bootstrap", "C#", "CSS", "JavaScript", "KnockoutJS", "REST", "SQL"],
       start: "Feb 2014",

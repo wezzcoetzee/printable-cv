@@ -78,3 +78,13 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+@media print {
+  .timeline-container {
+    page-break-inside: avoid;
+  }
+
+  .timeline-item {
+    page-break-inside: avoid;
+  }
+}
