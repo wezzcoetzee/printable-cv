@@ -8,10 +8,10 @@ import Script from "next/script";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.wezzcoetzee.com"),
   title: {
-    default: "Wesley Coetzee | Engineering Manager & Tech Lead",
+    default: "Wesley Coetzee | Tech Lead | Principal Engineer",
     template: "%s | Wesley Coetzee"
   },
-  description: "Engineering Manager and Technical Lead with over 10 years of experience in software development. Specializing in crafting mission-critical systems using Azure, AWS, C#, TypeScript, and more.",
+  description: "Tech Lead | Principal Engineer with over 10 years of experience in software development. Specializing in crafting mission-critical systems using Azure, AWS, C#, TypeScript, and more.",
   keywords: ["Wesley Coetzee", "Software Engineer", "Engineering Manager", "Technical Lead", "Azure", "AWS", "C#", "TypeScript", "Go", "Kafka", "Software Development", "Auckland", "New Zealand"],
   authors: [{ name: "Wesley Coetzee" }],
   creator: "Wesley Coetzee",
@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_NZ",
     url: "https://www.wezzcoetzee.com",
-    title: "Wesley Coetzee | Engineering Manager & Tech Lead",
-    description: "Engineering Manager and Technical Lead with over 10 years of experience in software development. Specializing in crafting mission-critical systems using Azure, AWS, C#, TypeScript, and more.",
+    title: "Wesley Coetzee | Tech Lead | Principal Engineer",
+    description: "Tech Lead | Principal Engineer with over 10 years of experience in software development. Specializing in crafting mission-critical systems using Azure, AWS, C#, TypeScript, and more.",
     siteName: "Wesley Coetzee - Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wesley Coetzee | Engineering Manager & Tech Lead",
-    description: "Engineering Manager and Technical Lead with over 10 years of experience in software development.",
+    title: "Wesley Coetzee | Tech Lead | Principal Engineer",
+    description: "Tech Lead | Principal Engineer with over 10 years of experience in software development.",
     creator: "@wezzcoetzee",
   },
   robots: {
