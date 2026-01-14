@@ -14,7 +14,6 @@ import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { AchievementCard } from "@/components/achievement-card";
-import { groupWorkByCompany } from "@/lib/group-work";
 import { CompanyCard } from "@/components/work-experience/company-card";
 
 export const metadata: Metadata = {
@@ -24,8 +23,6 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const groupedWork = groupWorkByCompany(RESUME_DATA.work);
-
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -45,11 +42,14 @@ export default function Page() {
       RESUME_DATA.contact.social.find((s) => s.name === "GitHub")?.url,
       RESUME_DATA.contact.social.find((s) => s.name === "X")?.url,
     ].filter(Boolean),
-    worksFor: RESUME_DATA.work.map((job) => ({
-      "@type": "Organization",
-      name: job.company,
-      url: job.link,
-    })),
+    worksFor: RESUME_DATA.work.flatMap((org) =>
+      org.positions.map((position) => ({
+        "@type": "Organization",
+        name: org.company,
+        url: org.link,
+        jobTitle: position.title,
+      }))
+    ),
     alumniOf: RESUME_DATA.education.map((edu) => ({
       "@type": "EducationalOrganization",
       name: edu.school,
@@ -150,14 +150,14 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
-          {groupedWork.map((group, index) => (
+          {RESUME_DATA.work.map((work) => (
             <CompanyCard
-              key={`${group.company}-${index}`}
-              company={group.company}
-              link={group.link}
-              badges={group.badges}
-              about={group.about}
-              positions={group.positions}
+              key={work.company}
+              company={work.company}
+              link={work.link}
+              badges={work.badges}
+              about={work.about}
+              positions={work.positions}
             />
           ))}
         </Section>

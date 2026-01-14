@@ -49,12 +49,16 @@ export const RESUME_DATA = {
       link: "https://www.idexx.com",
       badges: ["Auckland, New Zealand"],
       about: "ezyVet is a cloud-based veterinary practice management software, and Vello is its integrated client engagement platform, developed by IDEXX to help vet clinics communicate with pet owners, automate reminders (SMS/email), handle online scheduling, and improve compliance, all working seamlessly within the ezyVet system for better efficiency and client satisfaction.",
-      title: "Senior Software Engineer",
-      technologies: ["AWS", "DynamoDB", "GitHub", "Go", "Kafka", "NestJs", "PostgreSQL", "React", "SendGrid", "SQS", "TypeScript"],
-      start: "Dec 2025",
-      end: "Current",
-      description: [
-        "Technical Lead for Mass Communications System, enabling the sending of notifications to clients via SMS and email.",
+      positions: [
+        {
+          title: "Senior Software Engineer",
+          technologies: ["AWS", "DynamoDB", "GitHub", "Go", "Kafka", "NestJs", "PostgreSQL", "React", "SendGrid", "SQS", "TypeScript"],
+          start: "Dec 2025",
+          end: "Current",
+          description: [
+            "Technical Lead for Mass Communications System, enabling the sending of notifications to clients via SMS and email.",
+          ]
+        }
       ]
     },
     {
@@ -62,95 +66,100 @@ export const RESUME_DATA = {
       link: "https://www.eneco.nl",
       badges: ["Rotterdam, The Netherlands"],
       about: "Eneco is a major, independent international energy company, primarily operating in the Netherlands, Belgium, Germany, and the UK, focused on helping consumers and businesses transition to sustainable energy, with a core mission of 'everyone's sustainable energy'.",
-      title: "Engineering Manager | Principal Engineer",
-      technologies: [
-        "Azure",
-        "C#",
-        "Cosmos",
-        "Docker",
-        "Distributed Systems",
-        "Event Driven Architecture",
-        "EventHubs",
-        "Kafka",
-        "Microservices",
-        "Mongo",
-        "Polly",
-        "RabbitMQ",
-        "REST",
-        "ServiceBus",
-        "SQL",
-      ],
-      start: "Jun 2025",
-      end: "Dec 2025",
-      description: [
-        "Led a cross-functional team of 4 developers and 2 automation engineers.",
-        "Led an initiative to change our hosting provider, enabling us to be a true mission critical system.",
-        "Implemented multi-region setup for the VPP, enabling a more resilient system.",
-        "Helped with roadmap planning and technical debt planning for the VPP."
+      positions: [
+        {
+          title: "Engineering Manager | Principal Engineer",
+          technologies: [
+            "Azure",
+            "C#",
+            "Cosmos",
+            "Docker",
+            "Distributed Systems",
+            "Event Driven Architecture",
+            "EventHubs",
+            "Kafka",
+            "Microservices",
+            "Mongo",
+            "Polly",
+            "RabbitMQ",
+            "REST",
+            "ServiceBus",
+            "SQL",
+          ],
+          start: "Jun 2025",
+          end: "Dec 2025",
+          description: [
+            "Led a cross-functional team of 4 developers and 2 automation engineers.",
+            "Led an initiative to change our hosting provider, enabling us to be a true mission critical system.",
+            "Implemented multi-region setup for the VPP, enabling a more resilient system.",
+            "Helped with roadmap planning and technical debt planning for the VPP."
+          ]
+        },
+        {
+          title: "Technical Lead",
+          technologies: [
+            "Azure",
+            "C#",
+            "Cosmos",
+            "Docker",
+            "Distributed Systems",
+            "Event Driven Architecture",
+            "EventHubs",
+            "Kafka",
+            "Microservices",
+            "Mongo",
+            "Polly",
+            "RabbitMQ",
+            "REST",
+            "ServiceBus",
+            "SQL",
+          ],
+          start: "Sep 2024",
+          end: "Jun 2025",
+          description: [
+            "Technical Lead for the Virtual Power Plant, a replacement for the old asset steering system.",
+            "Led a team of 4 developers and 2 automation engineers.",
+            "Led an initiative to work out the integration between VPP and the replacement SCADA system.",
+            "Architected Layer 3, 3.5, and 4 of the Purdue model for the VPP.",
+            "Led an initiative to improve chain monitoring and reduce critical incidents.",
+            "Identified performance bottlenecks and technical improvements.",
+            "Coached and mentored developers and automation engineers."
+          ]
+        }
       ]
     },
     {
-      company: "Eneco",
-      link: "https://www.eneco.nl",
-      badges: ["Rotterdam, The Netherlands"],
-      title: "Technical Lead",
-      technologies: [
-        "Azure",
-        "C#",
-        "Cosmos",
-        "Docker",
-        "Distributed Systems",
-        "Event Driven Architecture",
-        "EventHubs",
-        "Kafka",
-        "Microservices",
-        "Mongo",
-        "Polly",
-        "RabbitMQ",
-        "REST",
-        "ServiceBus",
-        "SQL",
-      ],
-      start: "Sep 2024",
-      end: "Jun 2025",
-      description: [
-        "Technical Lead for the Virtual Power Plant, a replacement for the old asset steering system.",
-        "Led a team of 4 developers and 2 automation engineers.",
-        "Led an initiative to work out the integration between VPP and the replacement SCADA system.",
-        "Architected Layer 3, 3.5, and 4 of the Purdue model for the VPP.",
-        "Led an initiative to improve chain monitoring and reduce critical incidents.",
-        "Identified performance bottlenecks and technical improvements.",
-        "Coached and mentored developers and automation engineers."
-      ]
-    },
-    {
-      company: "Capgemini contracted toEneco",
+      company: "Capgemini contracted to Eneco",
       link: "https://www.capgemini.com",
       badges: ["Rotterdam, The Netherlands", "Contracted to Eneco"],
-      title: "Managing Consultant",
-      technologies: [
-        "Azure",
-        "C#",
-        "Cosmos",
-        "Distributed Systems",
-        "Docker",
-        "Event Driven Architecture",
-        "EventHubs",
-        "Kafka",
-        "Microservices",
-        "Mongo",
-        "Polly",
-        "RabbitMQ",
-        "REST",
-        "ServiceBus",
-        "SQL",
-      ],
-      start: "Mar 2022",
-      end: "Sep 2024",
-      description: [
-        "Technical Lead on the Virtual Power Plant for Eneco (more information about this in the Eneco section).",
-        "Spoke at GoTo Amsterdam about the VPP.",
-        "Improved the interview process for Capgemini and led an initiative to help with the recruitment of South African developers.",
+      positions: [
+        {
+          title: "Managing Consultant",
+          technologies: [
+            "Azure",
+            "C#",
+            "Cosmos",
+            "Distributed Systems",
+            "Docker",
+            "Event Driven Architecture",
+            "EventHubs",
+            "Kafka",
+            "Microservices",
+            "Mongo",
+            "Polly",
+            "RabbitMQ",
+            "REST",
+            "ServiceBus",
+            "SQL",
+          ],
+          start: "Mar 2022",
+          end: "Sep 2024",
+          description: [
+            "Technical Lead on the Virtual Power Plant for Eneco (more information about this in the Eneco section).",
+            "Spoke at GoTo Amsterdam about the VPP.",
+            "Improved the interview process for Capgemini and led an initiative to help with the recruitment of South African developers.",
+          ]
+        }
       ]
     },
     {
@@ -158,99 +167,94 @@ export const RESUME_DATA = {
       link: "https://derivco.co.za",
       badges: ["Durban, South Africa"],
       about: "Derivco is a leading provider of online gaming solutions, including sports betting, casino, and poker, with a focus on delivering high-quality, secure, and user-friendly products to customers around the world.",
-      title: "Senior Software Engineer | Technical Lead",
-      technologies: [
-        "Angular",
-        "Azure",
-        "C#",
-        "Docker",
-        "GraphQL",
-        "Kafka",
-        "NGRX",
-        "Polly",
-        "RabbitMQ",
-        "REST",
-        "SQL",
-        "TypeScript",
-      ],
-      start: "Oct 2019",
-      end: "Mar 2022",
-      description: [
-        "Designed and developed the new online casino lobby product to address performance issues and improve the user experience.",
-        "Added a BFF API to handle integrating with multiple backend systems, and added caching.",
-        "Moved to using the Angular framework, and making use of features like lazy loading, etc.",
-        "Designed a translation solution for banking to reduce testing times.",
-        "Set up Azure CICD pipelines for the lobby.",
-        "Led an initiative to implement LaunchDarkly feature flags to reduce production incidents.",
-        "Coached and mentored developers and automation engineers."
-      ]
-    },
-    {
-      company: "Derivco",
-      link: "https://derivco.co.za",
-      badges: ["Durban, South Africa"],
-      title: "Developer Level 2",
-      technologies: [
-        "Angular",
-        "Azure",
-        "C#",
-        "Entity Framework",
-        "RabbitMQ",
-        "REST",
-        "SQL",
-        "TypeScript",
-      ],
-      start: "Nov 2017",
-      end: "Oct 2019",
-      description: [
-        "Developed an integration for our Octopus builds that used the Swagger documentation to create and publish an NPM package to speed up integrations between teams.",
-        "Developed software used to simulate a game being played to test the math models for games. This ensured regulatory compliance and sped up time to market.",
-        "Took over the development of the new casino lobby."
-      ]
-    },
-    {
-      company: "Derivco",
-      link: "https://derivco.co.za",
-      badges: ["Durban, South Africa"],
-      title: "Developer Level 1",
-      technologies: [
-        "Angular",
-        "Azure",
-        "C#",
-        "Entity Framework",
-        "RabbitMQ",
-        "REST",
-        "SQL",
-        "TypeScript",
-      ],
-      start: "Nov 2016",
-      end: "Nov 2017",
-      description: [
-        "Developed a mobile application that was used to manage and find meeting rooms for our Durban office of 2500 people. This project won an award; see achievements section.",
-        "Developed a platform used in the provisioning of Virtual Machines, reducing the time taken from 4-6 hours to 30 minutes.",
-        "Spoke at a conference held by Derivco about using the Iconics Framework to develop a mobile application."
-      ]
-    },
-    {
-      company: "Derivco",
-      link: "https://derivco.co.za",
-      badges: ["Durban, South Africa"],
-      title: "Junior Developer",
-      technologies: [
-        "Angular",
-        "Azure",
-        "C#",
-        "Entity Framework",
-        "RabbitMQ",
-        "REST",
-        "SQL",
-        "TypeScript",
-      ],
-      start: "Oct 2015",
-      end: "Nov 2016",
-      description: [
-        "Managed incident and ticket management software used internally.",
-        "Upgraded legacy software to .NET Framework 4.6.2."
+      positions: [
+        {
+          title: "Senior Software Engineer | Technical Lead",
+          technologies: [
+            "Angular",
+            "Azure",
+            "C#",
+            "Docker",
+            "GraphQL",
+            "Kafka",
+            "NGRX",
+            "Polly",
+            "RabbitMQ",
+            "REST",
+            "SQL",
+            "TypeScript",
+          ],
+          start: "Oct 2019",
+          end: "Mar 2022",
+          description: [
+            "Designed and developed the new online casino lobby product to address performance issues and improve the user experience.",
+            "Added a BFF API to handle integrating with multiple backend systems, and added caching.",
+            "Moved to using the Angular framework, and making use of features like lazy loading, etc.",
+            "Designed a translation solution for banking to reduce testing times.",
+            "Set up Azure CICD pipelines for the lobby.",
+            "Led an initiative to implement LaunchDarkly feature flags to reduce production incidents.",
+            "Coached and mentored developers and automation engineers."
+          ]
+        },
+        {
+          title: "Developer Level 2",
+          technologies: [
+            "Angular",
+            "Azure",
+            "C#",
+            "Entity Framework",
+            "RabbitMQ",
+            "REST",
+            "SQL",
+            "TypeScript",
+          ],
+          start: "Nov 2017",
+          end: "Oct 2019",
+          description: [
+            "Developed an integration for our Octopus builds that used the Swagger documentation to create and publish an NPM package to speed up integrations between teams.",
+            "Developed software used to simulate a game being played to test the math models for games. This ensured regulatory compliance and sped up time to market.",
+            "Took over the development of the new casino lobby."
+          ]
+        },
+        {
+          title: "Developer Level 1",
+          technologies: [
+            "Angular",
+            "Azure",
+            "C#",
+            "Entity Framework",
+            "RabbitMQ",
+            "REST",
+            "SQL",
+            "TypeScript",
+          ],
+          start: "Nov 2016",
+          end: "Nov 2017",
+          description: [
+            "Developed a mobile application that was used to manage and find meeting rooms for our Durban office of 2500 people. This project won an award; see achievements section.",
+            "Developed a platform used in the provisioning of Virtual Machines, reducing the time taken from 4-6 hours to 30 minutes.",
+            "Spoke at a conference held by Derivco about using the Iconics Framework to develop a mobile application."
+          ]
+        },
+        {
+          title: "Junior Developer",
+          technologies: [
+            "Angular",
+            "Azure",
+            "C#",
+            "Entity Framework",
+            "RabbitMQ",
+            "REST",
+            "SQL",
+            "TypeScript",
+          ],
+          start: "Oct 2015",
+          end: "Nov 2016",
+          description: [
+            "Managed incident and ticket management software used internally.",
+            "Upgraded legacy software to .NET Framework 4.6.2."
+          ]
+        }
       ]
     },
     {
@@ -258,13 +262,17 @@ export const RESUME_DATA = {
       link: "https://www.comprsa.com",
       badges: ["PE, South Africa"],
       about: "CompRSA is a software development company that provides software development services to businesses and organizations.",
-      title: "Junior Software Engineer",
-      technologies: ["Bootstrap", "C#", "CSS", "JavaScript", "KnockoutJS", "REST", "SQL"],
-      start: "Feb 2014",
-      end: "Oct 2015",
-      description: [
-        "Helped develop a platform used to manage charitable donations in money and time for tax benefits.",
-        "Created a monitoring solution using New Relic to monitor customer websites."
+      positions: [
+        {
+          title: "Junior Software Engineer",
+          technologies: ["Bootstrap", "C#", "CSS", "JavaScript", "KnockoutJS", "REST", "SQL"],
+          start: "Feb 2014",
+          end: "Oct 2015",
+          description: [
+            "Helped develop a platform used to manage charitable donations in money and time for tax benefits.",
+            "Created a monitoring solution using New Relic to monitor customer websites."
+          ]
+        }
       ]
     },
   ],
