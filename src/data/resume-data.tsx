@@ -307,7 +307,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Personal Website",
+      title: "My Website",
       techStack: ["TypeScript", "Next.js", "Bun"],
       description: "My personal website",
       link: {

@@ -7,13 +7,13 @@ interface CompanyCardProps {
   link: string;
   badges: readonly string[];
   about?: string;
-  positions: Array<{
+  positions: readonly {
     title: string;
     technologies: readonly string[];
     start: string;
     end: string;
     description: readonly string[];
-  }>;
+  }[];
 }
 
 export function CompanyCard({

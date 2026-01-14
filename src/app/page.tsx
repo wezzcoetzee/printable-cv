@@ -3,7 +3,6 @@ import {
   Card,
   CardHeader,
   CardContent,
-  CardFooter,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
@@ -156,7 +155,7 @@ export default function Page() {
               company={work.company}
               link={work.link}
               badges={work.badges}
-              about={work.about}
+              about={"about" in work ? work.about : undefined}
               positions={work.positions}
             />
           ))}
@@ -229,7 +228,7 @@ export default function Page() {
         links={[
           {
             url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
+            title: "My Website",
           },
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
