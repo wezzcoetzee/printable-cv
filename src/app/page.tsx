@@ -61,7 +61,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+      <section className="mx-auto w-full max-w-2xl flex flex-col gap-y-8 bg-white print:gap-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
@@ -136,7 +136,7 @@ export default function Page() {
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
-        <Section>
+        <Section className="print:order-1">
           <h2 className="text-xl font-bold">Profile</h2>
 
           {RESUME_DATA.profile.map((paragraph, index) => {
@@ -147,7 +147,7 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section>
+        <Section className="print:order-4 print-force-new-page">
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => (
             <CompanyCard
@@ -160,7 +160,7 @@ export default function Page() {
             />
           ))}
         </Section>
-        <Section>
+        <Section className="print:order-2">
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
             return (
@@ -181,7 +181,7 @@ export default function Page() {
           })}
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section className="print:order-3 scroll-mb-16">
           <h2 className="text-xl font-bold">Achievements</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
             {RESUME_DATA.achievements.map((achievement) => {
@@ -197,7 +197,7 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section>
+        <Section className="print:hidden scroll-mb-16">
           <h2 className="text-xl font-bold">Interests</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.interests.map((interest) => {
@@ -206,7 +206,7 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section className="print:hidden scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
             {RESUME_DATA.projects.map((project) => {
