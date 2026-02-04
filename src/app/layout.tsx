@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Wesley Coetzee"
   },
   description: "Tech Lead | Principal Engineer with over 10 years of experience in software development. Specializing in crafting mission-critical systems using Azure, AWS, C#, TypeScript, and more.",
-  keywords: ["Wesley Coetzee", "Software Engineer", "Engineering Manager", "Technical Lead", "Azure", "AWS", "C#", "TypeScript", "Go", "Kafka", "Software Development", "Auckland", "New Zealand"],
+  keywords: ["Wesley Coetzee", "Software Engineer", "Engineering Manager", "Principal Engineer", "Technical Lead", "Azure", "AWS", "C#", "TypeScript", "Go", "Kafka", "Software Development", "Auckland", "New Zealand"],
   authors: [{ name: "Wesley Coetzee" }],
   creator: "Wesley Coetzee",
   openGraph: {

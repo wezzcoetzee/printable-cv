@@ -65,10 +65,10 @@ export const RESUME_DATA = {
       company: "Eneco",
       link: "https://www.eneco.nl",
       badges: ["Rotterdam, The Netherlands"],
-      about: "Eneco is a major, independent international energy company, primarily operating in the Netherlands, Belgium, Germany, and the UK, focused on helping consumers and businesses transition to sustainable energy, with a core mission of 'everyone's sustainable energy'.",
+      about: "Eneco is a major, international energy company, primarily operating in the Netherlands, Belgium, Germany, and the UK, focused on helping consumers and businesses transition to sustainable energy.",
       positions: [
         {
-          title: "Engineering Manager | Principal Engineer",
+          title: "Principal Engineer",
           technologies: [
             "Azure",
             "C#",
@@ -90,9 +90,11 @@ export const RESUME_DATA = {
           end: "Dec 2025",
           description: [
             "Led a cross-functional team of 4 developers and 2 automation engineers.",
-            "Led an initiative to change our hosting provider, enabling us to be a true mission critical system.",
-            "Implemented multi-region setup for the VPP, enabling a more resilient system.",
-            "Helped with roadmap planning and technical debt planning for the VPP."
+            "Designed migration strategy to move to a new hosting provider.",
+            "Implemented standards across teams to reduce technical debt and improve the quality of the codebase.",
+            "Designed multi-region setup for the VPP, enabling a more resilient system.",
+            "Helped with investigating bottle necks and implementing complex features across teams.",
+            "Led investigation and designed solution to bring battery onbaording from 6 months to 2 weeks."
           ]
         },
         {
@@ -131,6 +133,7 @@ export const RESUME_DATA = {
     {
       company: "Capgemini contracted to Eneco",
       link: "https://www.capgemini.com",
+      about: "Capgemini is a global consulting and technology services company, providing a wide range of services to businesses and organizations around the world.",
       badges: ["Rotterdam, The Netherlands", "Contracted to Eneco"],
       positions: [
         {
@@ -166,7 +169,7 @@ export const RESUME_DATA = {
       company: "Derivco",
       link: "https://derivco.co.za",
       badges: ["Durban, South Africa"],
-      about: "Derivco is a leading provider of online gaming solutions, including sports betting, casino, and poker, with a focus on delivering high-quality, secure, and user-friendly products to customers around the world.",
+      about: "Derivco is a leading provider of online gaming solutions, including sports betting, casino, and poker around the world.",
       positions: [
         {
           title: "Senior Software Engineer | Technical Lead",
