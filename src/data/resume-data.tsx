@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       company: "Idexx",
       link: "https://www.idexx.com",
       badges: ["Auckland, New Zealand"],
-      about: "ezyVet is a cloud-based veterinary practice management software, and Vello is its integrated client engagement platform, developed by IDEXX to help vet clinics communicate with pet owners, automate reminders (SMS/email), handle online scheduling, and improve compliance, all working seamlessly within the ezyVet system for better efficiency and client satisfaction.",
+      about: "ezyVet is a cloud-based veterinary practice management software, and Vello is its integrated client engagement platform, developed by IDEXX to help vet clinics communicate with pet owners.",
       positions: [
         {
           title: "Senior Software Engineer",
@@ -94,7 +94,7 @@ export const RESUME_DATA = {
             "Implemented standards across teams to reduce technical debt and improve the quality of the codebase.",
             "Designed multi-region setup for the VPP, enabling a more resilient system.",
             "Helped with investigating bottle necks and implementing complex features across teams.",
-            "Led investigation and designed solution to bring battery onbaording from 6 months to 2 weeks."
+            "Led investigation and designed solution to bring battery onboarding from 6 months to 2 weeks."
           ]
         },
         {
