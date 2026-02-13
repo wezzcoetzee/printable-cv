@@ -27,8 +27,24 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
+      - name: Restore Next.js build cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .next/cache
+          key: nextjs-${{ hashFiles('bun.lockb') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx', '**/*.css') }}
+          restore-keys: nextjs-${{ hashFiles('bun.lockb') }}-
+
       - name: Build
-        run: bun run build
+        run: bunx next build
+
+      - name: Save Next.js build cache
+        uses: actions/cache/save@v4
+        with:
+          path: .next/cache
+          key: nextjs-${{ hashFiles('bun.lockb') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx', '**/*.css') }}
+
+      - name: Remove build cache before deploy
+        run: rm -rf .next/cache
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
