@@ -1,8 +1,6 @@
 import { ImageResponse } from "next/og";
 import { RESUME_DATA } from "@/data/resume-data";
 
-export const runtime = "edge";
-
 export const alt = "Wesley Coetzee - Principal Engineer & Tech Lead";
 export const size = {
   width: 1200,
