@@ -1,0 +1,219 @@
+# Wesley Coetzee — Full CV
+
+> Wesley Coetzee is a Software Engineer with over 10 years of experience, based in Auckland, New Zealand. He specialises in mission-critical systems, distributed architecture, event-driven systems, and technical leadership. Current role: Senior Software Engineer at Idexx (ezyVet/Vello).
+
+This file contains the complete content of Wesley Coetzee's CV website (https://www.wezzcoetzee.com), formatted for LLM consumption.
+
+---
+
+## Profile
+
+As a Software Engineer with over 10 years of experience, Wesley specialises in crafting mission-critical systems using a diverse array of technologies. This broad expertise allows him to make informed decisions in software design and development.
+
+His core strength lies in tackling complex challenges — be it debugging intricate system issues, implementing sophisticated requirements, or optimising performance bottlenecks. He excels at designing scalable and reliable systems that meet the highest standards of quality. Additionally, he brings proven leadership skills, guiding teams, engaging stakeholders, and mentoring junior developers.
+
+---
+
+## Contact
+
+- **Location:** Auckland, New Zealand (NZST)
+- **Email:** hello@wezzcoetzee.com
+- **Phone:** +64225316967
+- **Website:** https://www.wezzcoetzee.com
+- **GitHub:** https://github.com/wezzcoetzee
+- **LinkedIn:** https://www.linkedin.com/in/wesleycoetzee/
+- **X (Twitter):** https://x.com/wezzcoetzee
+
+---
+
+## Work Experience
+
+### Idexx
+**Website:** https://www.idexx.com
+**Location:** Auckland, New Zealand
+
+ezyVet is a cloud-based veterinary practice management software, and Vello is its integrated client engagement platform, developed by IDEXX to help vet clinics communicate with pet owners.
+
+#### Senior Software Engineer (Dec 2025 – Current)
+**Technologies:** AWS, DynamoDB, GitHub, Go, Kafka, NestJs, PostgreSQL, React, SendGrid, SQS, TypeScript
+
+- Technical Lead for Mass Communications System, enabling the sending of notifications to clients via SMS and email.
+
+---
+
+### Eneco
+**Website:** https://www.eneco.nl
+**Location:** Rotterdam, The Netherlands
+
+Eneco is a major, international energy company, primarily operating in the Netherlands, Belgium, Germany, and the UK, focused on helping consumers and businesses transition to sustainable energy.
+
+#### Principal Engineer (Jun 2025 – Dec 2025)
+**Technologies:** Azure, C#, Cosmos, Docker, Distributed Systems, Event Driven Architecture, EventHubs, Kafka, Microservices, Mongo, Polly, RabbitMQ, REST, ServiceBus, SQL
+
+- Led a cross-functional team of 4 developers and 2 automation engineers.
+- Designed migration strategy to move to a new hosting provider.
+- Implemented standards across teams to reduce technical debt and improve the quality of the codebase.
+- Designed multi-region setup for the VPP, enabling a more resilient system.
+- Helped with investigating bottlenecks and implementing complex features across teams.
+- Led investigation and designed solution to bring battery onboarding from 6 months to 2 weeks.
+
+#### Technical Lead (Sep 2024 – Jun 2025)
+**Technologies:** Azure, C#, Cosmos, Docker, Distributed Systems, Event Driven Architecture, EventHubs, Kafka, Microservices, Mongo, Polly, RabbitMQ, REST, ServiceBus, SQL
+
+- Technical Lead for the Virtual Power Plant, a replacement for the old asset steering system.
+- Led a team of 4 developers and 2 automation engineers.
+- Led an initiative to work out the integration between VPP and the replacement SCADA system.
+- Architected Layer 3, 3.5, and 4 of the Purdue model for the VPP.
+- Led an initiative to improve chain monitoring and reduce critical incidents.
+- Identified performance bottlenecks and technical improvements.
+- Coached and mentored developers and automation engineers.
+
+---
+
+### Capgemini (contracted to Eneco)
+**Website:** https://www.capgemini.com
+**Location:** Rotterdam, The Netherlands
+
+Capgemini is a global consulting and technology services company, providing a wide range of services to businesses and organisations around the world.
+
+#### Managing Consultant (Mar 2022 – Sep 2024)
+**Technologies:** Azure, C#, Cosmos, Distributed Systems, Docker, Event Driven Architecture, EventHubs, Kafka, Microservices, Mongo, Polly, RabbitMQ, REST, ServiceBus, SQL
+
+- Technical Lead on the Virtual Power Plant for Eneco.
+- Spoke at GoTo Amsterdam about the VPP.
+- Improved the interview process for Capgemini and led an initiative to help with the recruitment of South African developers.
+
+---
+
+### Derivco
+**Website:** https://derivco.co.za
+**Location:** Durban, South Africa
+
+Derivco is a leading provider of online gaming solutions, including sports betting, casino, and poker around the world.
+
+#### Senior Software Engineer | Technical Lead (Oct 2019 – Mar 2022)
+**Technologies:** Angular, Azure, C#, Docker, GraphQL, Kafka, NGRX, Polly, RabbitMQ, REST, SQL, TypeScript
+
+- Designed and developed the new online casino lobby product to address performance issues and improve the user experience.
+- Added a BFF API to handle integrating with multiple backend systems, and added caching.
+- Moved to using the Angular framework, making use of features like lazy loading.
+- Designed a translation solution for banking to reduce testing times.
+- Set up Azure CI/CD pipelines for the lobby.
+- Led an initiative to implement LaunchDarkly feature flags to reduce production incidents.
+- Coached and mentored developers and automation engineers.
+
+#### Developer Level 2 (Nov 2017 – Oct 2019)
+**Technologies:** Angular, Azure, C#, Entity Framework, RabbitMQ, REST, SQL, TypeScript
+
+- Developed an integration for Octopus builds that used the Swagger documentation to create and publish an NPM package to speed up integrations between teams.
+- Developed software used to simulate a game being played to test the math models for games, ensuring regulatory compliance and speeding up time to market.
+- Took over the development of the new casino lobby.
+
+#### Developer Level 1 (Nov 2016 – Nov 2017)
+**Technologies:** Angular, Azure, C#, Entity Framework, RabbitMQ, REST, SQL, TypeScript
+
+- Developed a mobile application to manage and find meeting rooms for the Durban office of 2,500 people. This project won an award (see Achievements).
+- Developed a platform used in the provisioning of Virtual Machines, reducing the time taken from 4–6 hours to 30 minutes.
+- Spoke at a conference held by Derivco about using the Ionic Framework to develop a mobile application.
+
+#### Junior Developer (Oct 2015 – Nov 2016)
+**Technologies:** Angular, Azure, C#, Entity Framework, RabbitMQ, REST, SQL, TypeScript
+
+- Managed incident and ticket management software used internally.
+- Upgraded legacy software to .NET Framework 4.6.2.
+
+---
+
+### CompRSA
+**Website:** https://www.comprsa.com
+**Location:** Port Elizabeth, South Africa
+
+CompRSA is a software development company that provides software development services to businesses and organisations.
+
+#### Junior Software Engineer (Feb 2014 – Oct 2015)
+**Technologies:** Bootstrap, C#, CSS, JavaScript, KnockoutJS, REST, SQL
+
+- Helped develop a platform used to manage charitable donations in money and time for tax benefits.
+- Created a monitoring solution using New Relic to monitor customer websites.
+
+---
+
+## Education
+
+### Nelson Mandela Metropolitan University (NMMU)
+**Degree:** NDip Information Technologies (Software Engineering)
+**Duration:** Jan 2010 – Dec 2013
+
+---
+
+## Achievements
+
+### Speaker @ GoTo Amsterdam (June 2024)
+Presented "Spark Your Imagination, Eneco's Virtual Power Plant" at GoTo Amsterdam, one of the leading software development conferences.
+
+### Speaker @ Derivco Hackathon (Sep 2018)
+Presented on "Developing a Mobile Application Using the Ionic Framework" at a Derivco internal conference.
+
+### Tesla Innovation Award (2017)
+Awarded at Derivco for developing a mobile application used to book, manage, and locate meeting rooms for a company of over 2,000 people.
+
+---
+
+## Interests
+
+Software Architecture, Software Development, Blockchain, Performance Optimisation, Mentoring, Golf, Music, Investing, Animals, Travel
+
+---
+
+## Projects
+
+### My Website
+**Tech Stack:** TypeScript, Next.js, Bun
+**Description:** Wesley's personal website.
+**URL:** https://www.wezzcoetzee.com
+
+### Occasional Writer
+**Tech Stack:** Writing
+**Description:** Wesley occasionally writes about software development and other topics on Medium.com.
+**URL:** https://medium.com/@wezzcoetzee
+
+### What's Risk Management?
+**Tech Stack:** TypeScript, Next.js, Bun
+**Description:** A small tool to help traders manage their risk when trading.
+**URL:** https://whatsriskmanagement.com
+
+### Solana DCA Bot
+**Tech Stack:** TypeScript, NestJS, Solana, Bun
+**Description:** A bot that automates the process of buying a small amount of BTC on a regular basis.
+**URL:** https://github.com/wezzcoetzee/solana-dca-bot
+
+### Email Verification
+**Tech Stack:** Go
+**Description:** A tool that helps you verify if emails exist at scale.
+**URL:** https://github.com/wezzcoetzee/email-verification
+
+### GMoney
+**Tech Stack:** React Native, Android Studio, XCode, XState
+**Description:** A mobile banking application that aims to bring banking to the unbanked in Africa.
+**URL:** https://www.g-money.com.gh
+
+### Bobtail
+**Tech Stack:** Angular, Azure, C#, NgRX, SQL, TypeScript
+**Description:** An application for Bobtail dog food, where users can upload their purchases and claim insurance payouts.
+**URL:** https://portal.bobtail.co.za
+
+### Ultra Pet
+**Tech Stack:** Angular, Azure, C#, NgRX, SQL, TypeScript
+**Description:** An application for Ultra Pet pet food, where users can upload their purchases to qualify for insurance benefits.
+**URL:** https://portal.ultra-pet.co.za
+
+### Yapper
+**Tech Stack:** Angular, Azure, C#, NgRX, SQL, TypeScript
+**Description:** A social application used to track your dog's habits and share them with the community.
+**URL:** https://portal.yapperrewards.com
+
+---
+
+## About This Site
+
+This CV is built with Next.js 14, React, TypeScript, Shadcn/ui, and TailwindCSS. It is designed to be both print-friendly and web-accessible. The source code is available at https://github.com/wezzcoetzee/printable-cv and is based on the original template by Bartosz Jarocki (https://github.com/bartoszjarocki/cv), licensed under MIT.
