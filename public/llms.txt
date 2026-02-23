@@ -1,0 +1,30 @@
+# Wesley Coetzee — CV
+
+> Wesley Coetzee is a Software Engineer with over 10 years of experience, based in Auckland, New Zealand. He specialises in mission-critical systems, distributed architecture, and technical leadership. This is his online CV/resume, available at wezzcoetzee.com.
+
+## Contact
+
+- Email: hello@wezzcoetzee.com
+- Website: https://www.wezzcoetzee.com
+- GitHub: https://github.com/wezzcoetzee
+- LinkedIn: https://www.linkedin.com/in/wesleycoetzee/
+- X (Twitter): https://x.com/wezzcoetzee
+
+## CV Sections
+
+- [Profile](#profile): Summary of Wesley's engineering background and leadership experience
+- [Work Experience](#work-experience): Full employment history from 2014 to present
+- [Education](#education): Tertiary education at NMMU (2010–2013)
+- [Achievements](#achievements): Awards and conference speaking engagements
+- [Interests](#interests): Personal and professional interests
+- [Projects](#projects): Side projects and open-source work
+
+## Full Content
+
+- [Full CV content](https://www.wezzcoetzee.com/llms-full.txt): Complete machine-readable version of this CV
+
+## Optional
+
+- [Personal website](https://www.wezzcoetzee.com): Wesley's personal site
+- [Medium](https://medium.com/@wezzcoetzee): Occasional writing on software development
+- [GitHub profile](https://github.com/wezzcoetzee): Open-source projects and contributions
