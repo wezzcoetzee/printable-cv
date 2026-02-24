@@ -57,8 +57,8 @@ Required variable: `CLOUDFLARE_PROJECT_NAME`
 ## Docs map
 
 ```
+./ARCHITECTURE.md      system design, data flow, directory map
 docs/
-  ARCHITECTURE.md      system design, data flow, directory map
   DESIGN.md            visual design, print decisions
   FRONTEND.md          component catalogue, how to add sections
   PLANS.md             potential future work
