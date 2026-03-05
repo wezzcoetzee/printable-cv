@@ -52,11 +52,33 @@ export const RESUME_DATA = {
       positions: [
         {
           title: "Senior Software Engineer",
-          technologies: ["AWS", "DynamoDB", "GitHub", "Go", "Kafka", "NestJs", "PostgreSQL", "React", "SendGrid", "SQS", "TypeScript"],
+          technologies: ["AWS", "Claude Code", "Cursor AI", "DynamoDB", "GitHub", "Go", "Kafka", "NestJs", "PostgreSQL", "React", "SendGrid", "SQS", "TypeScript"],
           start: "Dec 2025",
           end: "Current",
           description: [
             "Technical Lead for Mass Communications System, enabling the sending of notifications to clients via SMS and email.",
+          ]
+        }
+      ]
+    },
+    {
+      company: "Web Next",
+      link: "https://www.linkedin.com/company/webdotnext/",
+      badges: ["Worldwide"],
+      about: "Web Next is a software development company that provides software development services to businesses and organizations around the world.",
+      positions: [
+        {
+          title: "Software Consultant & Founder",
+          technologies: ["Azure", "Claude Code", "Cloudflare", "Cursor AI", "Docker", "GitHub", "Go", "NestJs", "PostgreSQL", "React", "RabbitMQ", "Redis", "Solidity", "TypeScript"],
+          start: "Mar 2020",
+          end: "Current",
+          description: [
+            "Built a rewards platform as a Progressive Web App for RCL Foods (South Africa), which included an integration with a 3rd party insurance provider.",
+            "Built two separate loyalty platforms as a PWA for RCL Foods (South Africa)",
+            "Built a people management PWA for RCL Foods(South Africa)",
+            "Built a risk management application to educate users on how to safely trade and manage their risk (Global)",
+            "Built a trading bot that uses data to determine when to intelligently dollar cost average into the market (Global)",
+            "Built a SaaS trading bot with the ability to copy trade and follow smart traders strategies, completely hands free (Global)",
           ]
         }
       ]
