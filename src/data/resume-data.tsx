@@ -52,13 +52,14 @@ export const RESUME_DATA = {
       positions: [
         {
           title: "Senior Software Engineer",
-          technologies: ["AWS", "Claude Code", "Cursor AI", "DataDog", "DynamoDB", "GitHub", "Go", "Kafka", "NestJs", "PostgreSQL", "React", "SendGrid", "SQS", "TypeScript"],
+          technologies: ["AWS", "Claude Code", "Cursor AI", "DataDog", "DynamoDB", "GitHub", "Go", "Kafka", "Model Context Protocol (MCP)", "NestJs", "PostgreSQL", "React", "SendGrid", "SQS", "TypeScript"],
           start: "Dec 2025",
           end: "Current",
           description: [
             "Technical Lead for Mass Communications System, enabling the sending of notifications to clients via SMS and email.",
             "Introduce standards and improve developer experience, using Claude Code and Cursor.",
-            "Contribute to the plugins used throughout the organization.",
+            "Built and distribute plugins/skills used throughout Idexx.",
+            "Created MCP Servers to serve data to internal business to help understand how the system is being used.",
             "Led initiatives to improve monitoring and observability through DataDog."
           ]
         }
