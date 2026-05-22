@@ -52,11 +52,14 @@ export const RESUME_DATA = {
       positions: [
         {
           title: "Senior Software Engineer",
-          technologies: ["AWS", "Claude Code", "Cursor AI", "DynamoDB", "GitHub", "Go", "Kafka", "NestJs", "PostgreSQL", "React", "SendGrid", "SQS", "TypeScript"],
+          technologies: ["AWS", "Claude Code", "Cursor AI", "DataDog", "DynamoDB", "GitHub", "Go", "Kafka", "NestJs", "PostgreSQL", "React", "SendGrid", "SQS", "TypeScript"],
           start: "Dec 2025",
           end: "Current",
           description: [
             "Technical Lead for Mass Communications System, enabling the sending of notifications to clients via SMS and email.",
+            "Introduce standards and improve developer experience, using Claude Code and Cursor.",
+            "Contribute to the plugins used throughout the organization.",
+            "Led initiatives to improve monitoring and observability through DataDog."
           ]
         }
       ]
@@ -94,11 +97,13 @@ export const RESUME_DATA = {
           technologies: [
             "Azure",
             "C#",
+            "Claude Code",
             "Cosmos",
             "Docker",
             "Distributed Systems",
             "Event Driven Architecture",
             "EventHubs",
+            "GitHub Copilot",
             "Kafka",
             "Microservices",
             "Mongo",
@@ -116,7 +121,8 @@ export const RESUME_DATA = {
             "Implemented standards across teams to reduce technical debt and improve the quality of the codebase.",
             "Designed multi-region setup for the VPP, enabling a more resilient system.",
             "Helped with investigating bottle necks and implementing complex features across teams.",
-            "Led investigation and designed solution to bring battery onboarding from 6 months to 2 weeks."
+            "Led investigation and designed solution to bring battery onboarding from 6 months to 2 weeks.",
+            "Helped introduce AI standards and improve developer experience across Eneco, using Claude Code and GitHub Copilot."
           ]
         },
         {
