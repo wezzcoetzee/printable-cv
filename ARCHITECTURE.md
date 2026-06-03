@@ -47,9 +47,12 @@ printable-cv/
 │   │   ├── command-menu.tsx    # ⌘J command palette (client component)
 │   │   ├── project-card.tsx    # project grid card
 │   │   ├── achievement-card.tsx # achievement grid card
+│   │   ├── icons/              # social SVG icons (GitHub, LinkedIn, X)
 │   │   └── work-experience/
 │   │       ├── company-card.tsx   # company header + timeline
 │   │       └── timeline-item.tsx  # individual role within a company
+│   ├── lib/
+│   │   └── utils.ts            # cn() Tailwind class-merge helper
 │   └── data/
 │       └── resume-data.tsx     # ALL CV content — single source of truth
 ├── docs/                       # project documentation

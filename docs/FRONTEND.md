@@ -43,9 +43,14 @@ Card for the Achievements grid. Shows title, description, and date. No link.
 
 Props: `title`, `description`, `date`
 
+### `src/components/icons/`
+
+Inline SVG components for social profiles: `GitHubIcon`, `LinkedInIcon`, `XIcon`, re-exported
+from `index.ts`. Used by the header social buttons.
+
 ### `src/components/ui/`
 
-ShadCN primitives: `Avatar`, `Badge`, `Button`, `Card`, `Command`, `Dialog`, `Section`.
+ShadCN primitives: `Avatar`, `Badge`, `Button`, `Card`, `Command`, `Dialog`, `Drawer`, `Section`.
 Do not edit these files manually — use the ShadCN CLI to update them.
 
 ---

@@ -7,11 +7,12 @@ git push main
     │
     ▼
 GitHub Actions (.github/workflows/cloudflare-pages.yml)
-    ├── actions/checkout@v4
+    ├── actions/checkout@v6
+    ├── actions/setup-node@v4 (node-version: 22)
     ├── oven-sh/setup-bun@v2
     ├── bun install --frozen-lockfile
     ├── bun run build
-    └── cloudflare/wrangler-action@v3
+    └── cloudflare/wrangler-action@v4
             └── pages deploy out --project-name=...
 ```
 
