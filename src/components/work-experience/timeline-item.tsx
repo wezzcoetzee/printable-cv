@@ -1,12 +1,9 @@
-import { Badge } from "@/components/ui/badge";
-
 interface TimelineItemProps {
   position: {
     title: string;
     start: string;
     end: string;
     description: readonly string[];
-    technologies: readonly string[];
   };
 }
 
@@ -31,14 +28,6 @@ export function TimelineItem({ position }: TimelineItemProps) {
             </li>
           ))}
         </ul>
-
-        <div className="flex flex-wrap gap-1">
-          {position.technologies.map((tech) => (
-            <Badge key={tech} variant="secondary" className="text-xs">
-              {tech}
-            </Badge>
-          ))}
-        </div>
       </div>
     </div>
   );

@@ -24,6 +24,9 @@ export function CompanyCard({
   positions,
 }: CompanyCardProps) {
   const showTimeline = positions.length > 1;
+  const technologies = Array.from(
+    new Set(positions.flatMap((position) => position.technologies)),
+  ).sort((a, b) => a.localeCompare(b));
 
   return (
     <Card className="mb-4">
@@ -67,6 +70,16 @@ export function CompanyCard({
             />
           ))}
         </div>
+
+        {technologies.length > 0 && (
+          <div className="mt-4 flex flex-wrap gap-1">
+            {technologies.map((tech) => (
+              <Badge key={tech} variant="secondary" className="text-xs">
+                {tech}
+              </Badge>
+            ))}
+          </div>
+        )}
       </CardContent>
     </Card>
   );
