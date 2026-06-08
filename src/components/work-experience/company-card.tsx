@@ -56,7 +56,7 @@ export function CompanyCard({
         <div
           className={
             showTimeline
-              ? "timeline-container relative ml-4 border-l-2 border-gray-200 pl-8 print:border-gray-400"
+              ? "timeline-container relative ml-4 border-l-2 border-border pl-8 print:border-muted-foreground"
               : ""
           }
         >

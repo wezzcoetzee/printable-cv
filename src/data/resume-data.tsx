@@ -391,20 +391,12 @@ export const RESUME_DATA = {
       techStack: ["React Native", "Android Studio", "XCode", "XState"],
       description:
         "A mobile banking application that aims to bring banking to the unbanked in Africa.",
-      link: {
-        label: "g-money.com.gh",
-        href: "https://www.g-money.com.gh",
-      },
     },
     {
       title: "Bobtail",
       techStack: ["Angular", "Azure", "C#", "NgRX", "SQL", "TypeScript"],
       description:
         "An application for Bobtail dog food, where users can upload their purchases and claim insurance payouts.",
-      link: {
-        label: "bobtail.co.za",
-        href: "https://portal.bobtail.co.za",
-      },
     },
     {
       title: "Ultra Pet",
@@ -421,10 +413,6 @@ export const RESUME_DATA = {
       techStack: ["Angular", "Azure", "C#", "NgRX", "SQL", "TypeScript"],
       description:
         "A social application used to track your dog's habits and share them with the community.",
-      link: {
-        label: "yapperrewards.com",
-        href: "https://portal.yapperrewards.com",
-      },
     },
   ],
 } as const;

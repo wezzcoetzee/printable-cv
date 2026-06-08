@@ -54,10 +54,24 @@ PRs get preview deployments automatically.
 Required secrets: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`
 Required variable: `CLOUDFLARE_PROJECT_NAME`
 
+## Design Context
+
+Strategic design context lives in **`PRODUCT.md`** (project root). Read it before any UI work.
+
+- **Register:** brand (personal-brand/portfolio surface — design IS the product).
+- **Personality:** precise, credible, restrained. Pure neutral palette, mono-detail
+  typography. No gradients, glassmorphism, eyebrow kickers, or CV-builder template look.
+- **Must stay printable.** The A4 print/PDF output is a first-class surface, not an
+  afterthought. Any layout change must be checked in print: verify section order, page
+  breaks, hidden/shown elements, and grayscale readability. See `docs/DESIGN.md` →
+  "Print decisions" for the canonical rules.
+- **A11y target:** WCAG 2.1 AA (contrast, keyboard nav, reduced motion).
+
 ## Docs map
 
 ```
 ./ARCHITECTURE.md      system design, data flow, directory map
+./PRODUCT.md           strategic design context (register, principles, anti-references)
 docs/
   DESIGN.md            visual design, print decisions
   FRONTEND.md          component catalogue, how to add sections

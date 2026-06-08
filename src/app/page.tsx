@@ -61,7 +61,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="mx-auto w-full max-w-2xl flex flex-col gap-y-8 bg-white print:gap-y-6">
+      <section className="mx-auto w-full max-w-2xl flex flex-col gap-y-8 bg-background print:gap-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
@@ -73,6 +73,7 @@ export default function Page() {
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                 href={RESUME_DATA.locationLink}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <GlobeIcon className="size-3" />
                 {RESUME_DATA.location}
@@ -81,24 +82,30 @@ export default function Page() {
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email ? (
                 <Button
-                  className="size-8"
+                  className="size-9"
                   variant="outline"
                   size="icon"
                   asChild
                 >
-                  <a href={`mailto:${RESUME_DATA.contact.email}`}>
+                  <a
+                    href={`mailto:${RESUME_DATA.contact.email}`}
+                    aria-label={`Email ${RESUME_DATA.name}`}
+                  >
                     <MailIcon className="size-4" />
                   </a>
                 </Button>
               ) : null}
               {RESUME_DATA.contact.tel ? (
                 <Button
-                  className="size-8"
+                  className="size-9"
                   variant="outline"
                   size="icon"
                   asChild
                 >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                  <a
+                    href={`tel:${RESUME_DATA.contact.tel}`}
+                    aria-label={`Call ${RESUME_DATA.name}`}
+                  >
                     <PhoneIcon className="size-4" />
                   </a>
                 </Button>
@@ -106,12 +113,17 @@ export default function Page() {
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
-                  className="size-8"
+                  className="size-9"
                   variant="outline"
                   size="icon"
                   asChild
                 >
-                  <a href={social.url}>
+                  <a
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${RESUME_DATA.name} on ${social.name}`}
+                  >
                     <social.icon className="size-4" />
                   </a>
                 </Button>
@@ -170,7 +182,7 @@ export default function Page() {
                     <h3 className="font-semibold leading-none">
                       {education.school}
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-sm tabular-nums text-muted-foreground">
                       {education.start} - {education.end}
                     </div>
                   </div>

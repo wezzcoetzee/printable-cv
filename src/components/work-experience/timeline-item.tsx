@@ -19,7 +19,7 @@ export function TimelineItem({ position }: TimelineItemProps) {
           <h4 className="font-mono text-sm font-semibold leading-none">
             {position.title}
           </h4>
-          <span className="text-sm tabular-nums text-gray-500">
+          <span className="text-sm tabular-nums text-muted-foreground">
             {position.start} - {position.end}
           </span>
         </div>

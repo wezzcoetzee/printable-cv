@@ -20,7 +20,7 @@
     --secondary-foreground: 220.9 39.3% 11%;
 
     --muted: 220 14.3% 95.9%;
-    --muted-foreground: 220 8.9% 46.1%;
+    --muted-foreground: 220 10% 38%;
 
     --accent: 220 14.3% 95.9%;
     --accent-foreground: 220.9 39.3% 11%;
@@ -80,6 +80,13 @@
 }
 
 @media print {
+  /* An overflow scroll container can spill past the page box and emit a
+     blank trailing page; let print content flow naturally instead. */
+  main {
+    overflow: visible !important;
+    padding-bottom: 0 !important;
+  }
+
   .timeline-container {
     page-break-inside: avoid;
   }

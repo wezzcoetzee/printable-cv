@@ -26,10 +26,10 @@ export function AchievementCard({ title, description, date }: Props) {
           </CardDescription>
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex">
-        <div className="mt-2 flex flex-wrap gap-1">
+      <CardContent className="mt-auto">
+        <p className="mt-2 font-mono text-xs tabular-nums text-muted-foreground">
           {date}
-        </div>
+        </p>
       </CardContent>
     </Card>
   );
