@@ -9,7 +9,7 @@ interface TimelineItemProps {
 
 export function TimelineItem({ position }: TimelineItemProps) {
   return (
-    <div className="relative mb-6 last:mb-0 print:mb-4">
+    <div className="timeline-item relative mb-6 last:mb-0 print:mb-4">
 
       <div className="flex flex-col gap-2">
         <div className="flex items-baseline justify-between gap-2">

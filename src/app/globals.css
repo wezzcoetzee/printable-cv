@@ -87,10 +87,14 @@
     padding-bottom: 0 !important;
   }
 
-  .timeline-container {
-    page-break-inside: avoid;
+  /* Keep the company header glued to its first role so it can't be
+     orphaned at the bottom of a page. */
+  .company-header {
+    break-after: avoid;
   }
 
+  /* Don't split an individual role across pages, but allow the roles
+     block as a whole to flow naturally onto the next page. */
   .timeline-item {
     page-break-inside: avoid;
   }

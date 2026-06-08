@@ -30,7 +30,7 @@ export function CompanyCard({
 
   return (
     <Card className="mb-4">
-      <CardHeader>
+      <CardHeader className="company-header">
         <div className="flex items-center gap-2 flex-wrap text-base">
           <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
             <a className="hover:underline" href={link}>
