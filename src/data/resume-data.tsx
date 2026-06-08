@@ -316,7 +316,8 @@ export const RESUME_DATA = {
     "Mentoring",
     "Golf",
     "Music",
-    "Investing",
+    "Guitar",
+    "Finance",
     "Animals",
     "Travel",
   ],
@@ -338,6 +339,96 @@ export const RESUME_DATA = {
     },
   ],
   projects: [
+    {
+      title: "TradingView MCP Bridge",
+      techStack: ["TypeScript", "MCP", "Chrome DevTools Protocol", "Claude Code"],
+      description:
+        "A Model Context Protocol bridge connecting Claude Code to the TradingView Desktop app for local, AI-assisted chart analysis and Pine Script development.",
+      link: {
+        label: "TradingView MCP Bridge",
+        href: "https://github.com/wezzcoetzee/tradingview-mcp",
+      },
+    },
+    {
+      title: "Hyperliquid CLI",
+      techStack: ["TypeScript", "Node.js", "Hyperliquid", "CLI"],
+      description:
+        "A scriptable command-line interface for trading perps on the Hyperliquid exchange directly from the terminal.",
+      link: {
+        label: "Hyperliquid CLI",
+        href: "https://github.com/wezzcoetzee/hyperliquid-cli",
+      },
+    },
+    {
+      title: "GRVT TypeScript SDK",
+      techStack: ["TypeScript", "Deno", "Node.js", "WebSocket", "EIP-712"],
+      description:
+        "A Deno-first, NPM-compatible TypeScript SDK for the GRVT Exchange, with a CCXT-style client and real-time WebSocket market data.",
+      link: {
+        label: "GRVT SDK",
+        href: "https://github.com/wezzcoetzee/grvt",
+      },
+    },
+    {
+      title: "Claude Code Config",
+      techStack: ["Claude Code", "Python", "MCP", "Skills"],
+      description:
+        "A curated, shareable Claude Code setup bundling rules, hooks, agents, skills, and slash commands for a productive AI coding workflow.",
+      link: {
+        label: "Claude Code Config",
+        href: "https://github.com/wezzcoetzee/claude-code-config",
+      },
+    },
+    {
+      title: "Trading Lab",
+      techStack: ["TypeScript", "Next.js", "React", "Tailwind CSS"],
+      description:
+        "Data-driven trading signals that backtest trend, capital efficiency, and risk protection to remove guesswork from momentum trading.",
+      link: {
+        label: "tradinglab.vip",
+        href: "https://tradinglab.vip",
+      },
+    },
+    {
+      title: "Solidity Tips and Tricks",
+      techStack: ["Solidity", "Hardhat", "Smart Contracts", "Web3"],
+      description:
+        "An article sharing practical tips from the Solidity development journey, covering debugging, pragma locking, and nested mappings.",
+      link: {
+        label: "Read Article",
+        href: "https://coinsbench.com/solidity-tips-and-trick-5201d08ce49f",
+      },
+    },
+    {
+      title: "WETH Permit Exploit",
+      techStack: ["Solidity", "Foundry", "Security Research", "DeFi"],
+      description:
+        "A security research project demonstrating how WETH's missing permit function can be exploited to bypass authentication and transfer funds.",
+      link: {
+        label: "WETH Permit Exploit",
+        href: "https://github.com/wezzcoetzee/weth-permit-exploit",
+      },
+    },
+    {
+      title: "BETH Stack",
+      techStack: ["Bun", "Elysia", "Turso", "HTMX", "TypeScript", "Drizzle"],
+      description:
+        "An opinionated hypermedia-driven web framework combining Bun, Elysia, Turso, and HTMX for fast, type-safe, simple web apps.",
+      link: {
+        label: "BETH Stack",
+        href: "https://github.com/wezzcoetzee/beth-stack",
+      },
+    },
+    {
+      title: "Printable CV",
+      techStack: ["Next.js", "React", "TypeScript", "CSS Print Styles"],
+      description:
+        "A web-based CV that can be hosted online and prints to a clean, professional PDF with optimised print styles.",
+      link: {
+        label: "View on GitHub",
+        href: "https://github.com/wezzcoetzee/printable-cv",
+      },
+    },
     {
       title: "My Website",
       techStack: ["TypeScript", "Next.js", "Bun"],
