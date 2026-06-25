@@ -380,6 +380,16 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Tokengochi",
+      techStack: ["Swift", "macOS", "Claude Code", "Menu Bar App"],
+      description:
+        "A macOS menu-bar virtual pet that monitors Claude usage and turns session, weekly, and context-window limits into a playful care loop.",
+      link: {
+        label: "Tokengochi",
+        href: "https://github.com/wezzcoetzee/tokengochi",
+      },
+    },
+    {
       title: "Trading Lab",
       techStack: ["TypeScript", "Next.js", "React", "Tailwind CSS"],
       description:
