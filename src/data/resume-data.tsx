@@ -395,8 +395,8 @@ export const RESUME_DATA = {
       description:
         "Data-driven trading signals that backtest trend, capital efficiency, and risk protection to remove guesswork from momentum trading.",
       link: {
-        label: "tradinglab.vip",
-        href: "https://tradinglab.vip",
+        label: "Trading Lab",
+        href: "https://github.com/wezzcoetzee/tradinglab",
       },
     },
     {
@@ -455,16 +455,6 @@ export const RESUME_DATA = {
       link: {
         label: "medium.com",
         href: "https://medium.com/@wezzcoetzee",
-      },
-    },
-    {
-      title: "What's Risk Management?",
-      techStack: ["TypeScript", "Next.js", "Bun"],
-      description:
-        "A small tool to help traders manage their risk when trading.",
-      link: {
-        label: "whatsriskmanagement.com",
-        href: "https://whatsriskmanagement.com",
       },
     },
     {
