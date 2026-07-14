@@ -340,6 +340,16 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "SnipSnapp",
+      techStack: ["TypeScript", "React", "Vite", "Chrome Extension", "Tailwind CSS"],
+      description:
+        "A Chrome extension that extracts web pages as clean, token-efficient Markdown for pasting into AI agents and LLMs.",
+      link: {
+        label: "SnipSnapp",
+        href: "https://github.com/wezzcoetzee/snipsnapp",
+      },
+    },
+    {
       title: "TradingView MCP Bridge",
       techStack: ["TypeScript", "MCP", "Chrome DevTools Protocol", "Claude Code"],
       description:
@@ -397,6 +407,36 @@ export const RESUME_DATA = {
       link: {
         label: "Trading Lab",
         href: "https://github.com/wezzcoetzee/tradinglab",
+      },
+    },
+    {
+      title: "Copy Trade Bot",
+      techStack: ["TypeScript", "Next.js", "Hyperliquid", "PostgreSQL", "Docker"],
+      description:
+        "A copy trading bot for Hyperliquid perps that monitors configured wallets and proportionally replicates their trades from a managed dashboard.",
+      link: {
+        label: "Copy Trade Bot",
+        href: "https://github.com/wezzcoetzee/copy-trade-bot",
+      },
+    },
+    {
+      title: "Smart DCA Bot",
+      techStack: ["TypeScript", "Next.js", "Hyperliquid", "PostgreSQL", "Docker"],
+      description:
+        "A dollar-cost averaging bot that sizes BTC buys with a multiplier strategy based on market conditions, and benchmarks its ROI against fixed DCA.",
+      link: {
+        label: "Smart DCA Bot",
+        href: "https://github.com/wezzcoetzee/smart-dca-bot",
+      },
+    },
+    {
+      title: "Moving Average Bot",
+      techStack: ["TypeScript", "Next.js", "Hyperliquid", "PostgreSQL", "Docker"],
+      description:
+        "An automated trading bot that goes long or short on Hyperliquid perps from daily moving-average crossovers, with ATR trailing stops and partial closes.",
+      link: {
+        label: "Moving Average Bot",
+        href: "https://github.com/wezzcoetzee/moving-average-bot",
       },
     },
     {

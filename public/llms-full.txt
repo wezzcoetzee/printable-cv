@@ -177,11 +177,6 @@ Software Architecture, Software Development, Blockchain, Performance Optimisatio
 **Description:** Wesley occasionally writes about software development and other topics on Medium.com.
 **URL:** https://medium.com/@wezzcoetzee
 
-### What's Risk Management?
-**Tech Stack:** TypeScript, Next.js, Bun
-**Description:** A small tool to help traders manage their risk when trading.
-**URL:** https://whatsriskmanagement.com
-
 ### Solana DCA Bot
 **Tech Stack:** TypeScript, NestJS, Solana, Bun
 **Description:** A bot that automates the process of buying a small amount of BTC on a regular basis.
