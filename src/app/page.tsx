@@ -17,7 +17,7 @@ import { CompanyCard } from "@/components/work-experience/company-card";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "https://www.wezzcoetzee.com",
+    canonical: "https://cv.wezzcoetzee.com",
   },
 };
 

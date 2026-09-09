@@ -6,7 +6,7 @@ import React from "react";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.wezzcoetzee.com"),
+  metadataBase: new URL("https://cv.wezzcoetzee.com"),
   title: {
     default: "Wesley Coetzee | Tech Lead | Principal Engineer",
     template: "%s | Wesley Coetzee"
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_NZ",
-    url: "https://www.wezzcoetzee.com",
+    url: "https://cv.wezzcoetzee.com",
     title: "Wesley Coetzee | Tech Lead | Principal Engineer",
     description: "Tech Lead | Principal Engineer with over 10 years of experience in software development. Specializing in crafting mission-critical systems using Azure, AWS, C#, TypeScript, and more.",
     siteName: "Wesley Coetzee - Portfolio",
