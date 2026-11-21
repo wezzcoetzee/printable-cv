@@ -56,10 +56,11 @@ Required variable: `CLOUDFLARE_PROJECT_NAME`
 
 ## Design Context
 
-Strategic design context lives in **`PRODUCT.md`** (project root). Read it before any UI work.
+Strategic design context lives in **`PRODUCT.md`** and the visual system in **`DESIGN.md`**
+(both at the project root). Read them before any UI work.
 
 - **Register:** brand (personal-brand/portfolio surface — design IS the product).
-- **Personality:** precise, credible, restrained. Pure neutral palette, mono-detail
+- **Personality:** precise, credible, warm-restrained (warmth in copy, never in color). Pure neutral palette, mono-detail
   typography. No gradients, glassmorphism, eyebrow kickers, or CV-builder template look.
 - **Must stay printable.** The A4 print/PDF output is a first-class surface, not an
   afterthought. Any layout change must be checked in print: verify section order, page
@@ -72,8 +73,9 @@ Strategic design context lives in **`PRODUCT.md`** (project root). Read it befor
 ```
 ./ARCHITECTURE.md      system design, data flow, directory map
 ./PRODUCT.md           strategic design context (register, principles, anti-references)
+./DESIGN.md            visual system spec (tokens, typography, components, do's and don'ts)
 docs/
-  DESIGN.md            visual design, print decisions
+  DESIGN.md            implementation notes, print decisions
   FRONTEND.md          component catalogue, how to add sections
   PLANS.md             potential future work
   PRODUCT_SENSE.md     what this is and why

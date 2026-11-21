@@ -1,5 +1,8 @@
 # Design
 
+The visual system (tokens, type scale, components, rules) is specified in the root
+[`DESIGN.md`](../DESIGN.md). This file holds implementation notes and the canonical print rules.
+
 ## Component library
 
 ShadCN/Radix UI — components are copied into `src/components/ui/` at install time and owned
