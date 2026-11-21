@@ -26,7 +26,7 @@ Props: `company`, `link`, `badges`, `about?`, `positions[]`
 ### `src/components/work-experience/timeline-item.tsx`
 
 Renders one role within a company: title, date range, technology badges, and bullet descriptions.
-Carries `timeline-item` class for print `page-break-inside: avoid`.
+Its title row carries `timeline-item-head` so a role title never ends a printed page; bullets may split between pages.
 
 Props: `position: { title, technologies, start, end, description[] }`
 
@@ -83,7 +83,7 @@ Key fields:
 2. Create a card component in `src/components/` if the section needs one.
 3. Import and render the section in `src/app/page.tsx` inside a `<Section>` wrapper.
 4. Decide print visibility: add `print:hidden` or leave visible.
-5. Assign `print:order-*` if the print order differs from web order.
+5. Print follows web order. Keep it that way; check page breaks with a print preview.
 
 ---
 

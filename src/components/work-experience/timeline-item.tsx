@@ -12,7 +12,7 @@ export function TimelineItem({ position }: TimelineItemProps) {
     <div className="timeline-item relative mb-6 last:mb-0 print:mb-4">
 
       <div className="flex flex-col gap-2">
-        <div className="flex items-baseline justify-between gap-2">
+        <div className="timeline-item-head flex items-baseline justify-between gap-2">
           <h4 className="font-mono text-sm font-semibold leading-none">
             {position.title}
           </h4>
