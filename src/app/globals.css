@@ -75,8 +75,9 @@
   }
 }
 
-.print-force-new-page {
-  page-break-before: always;
+@page {
+  size: A4;
+  margin: 14mm 16mm;
 }
 
 @media print {
@@ -87,15 +88,35 @@
     padding-bottom: 0 !important;
   }
 
-  /* Keep the company header glued to its first role so it can't be
-     orphaned at the bottom of a page. */
-  .company-header {
+  /* A section heading never ends a page. */
+  main h2 {
     break-after: avoid;
   }
 
-  /* Don't split an individual role across pages, but allow the roles
-     block as a whole to flow naturally onto the next page. */
-  .timeline-item {
-    page-break-inside: avoid;
+  /* Keep the company header (name, badges, blurb) in one piece and glued
+     to its first role so it can't be orphaned at the bottom of a page.
+     The header renders as block in print because Chromium ignores break
+     avoidance between flex items. */
+  .company-header {
+    break-inside: avoid;
+    break-after: avoid;
+  }
+
+  /* Roles may split between bullets so pages fill, but a role title never
+     ends a page and a single bullet never splits. */
+  .timeline-item-head {
+    break-inside: avoid;
+    break-after: avoid;
+  }
+
+  .timeline-item li {
+    break-inside: avoid;
+  }
+
+  /* A company's tech list belongs to its last role; never print it alone
+     at the top of the next page. */
+  .company-tech {
+    break-inside: avoid;
+    break-before: avoid;
   }
 }

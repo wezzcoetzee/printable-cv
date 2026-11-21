@@ -29,8 +29,8 @@ export function CompanyCard({
   ).sort((a, b) => a.localeCompare(b));
 
   return (
-    <Card className="mb-4">
-      <CardHeader className="company-header">
+    <Card className="mb-4 print:mb-0">
+      <CardHeader className="company-header print:block">
         <div className="flex items-center gap-2 flex-wrap text-base">
           <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
             <a className="hover:underline" href={link}>
@@ -55,7 +55,7 @@ export function CompanyCard({
         )}
       </CardHeader>
 
-      <CardContent className="mt-4">
+      <CardContent className="mt-4 print:mt-3">
         <div
           className={
             showTimeline
@@ -72,9 +72,9 @@ export function CompanyCard({
         </div>
 
         {technologies.length > 0 && (
-          <div className="mt-4 flex flex-wrap gap-1">
+          <div className="company-tech mt-4 flex flex-wrap gap-1 print:mt-3">
             {technologies.map((tech) => (
-              <Badge key={tech} variant="secondary" className="text-xs">
+              <Badge key={tech} variant="secondary" className="text-xs print:py-0">
                 {tech}
               </Badge>
             ))}

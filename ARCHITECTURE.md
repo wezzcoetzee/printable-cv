@@ -74,10 +74,10 @@ Key patterns:
 |---------|--------|
 | `print:hidden` | Hides element when printing (interests, projects sections) |
 | `print:flex`, `print:block` | Shows print-only elements (plain-text contact info) |
-| `print:order-*` | Reorders sections for A4 layout (education/achievements before work) |
-| `print:gap-y-6` | Tighter vertical spacing in print |
-| `.print-force-new-page` | `page-break-before: always` on Work Experience section |
-| `.timeline-container`, `.timeline-item` | `page-break-inside: avoid` in print media query |
+| `print:gap-y-5` | Tighter vertical spacing in print |
+| `@page` | A4 with 14mm/16mm margins; `main` has no print padding |
+| `main h2`, `.company-header`, `.timeline-item-head` | `break-after: avoid`, so headings never end a page |
+| `.timeline-item li`, `.company-tech`, achievement tiles | `break-inside: avoid`; tags stay with their last role |
 
 ## SEO setup
 
