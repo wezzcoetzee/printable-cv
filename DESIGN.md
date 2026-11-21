@@ -4,6 +4,7 @@ description: A single-page engineer's CV that reads well on screen and prints to
 colors:
   ink: "#030712"
   graphite: "#111827"
+  prose: "#1f2937"
   slate-note: "#575e6b"
   hairline: "#e5e7eb"
   mist: "#f3f4f6"
@@ -26,12 +27,12 @@ typography:
     fontWeight: 600
     lineHeight: 1
   body:
-    fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
-    fontSize: "0.875rem"
+    fontFamily: "'Source Serif 4', Georgia, serif"
+    fontSize: "1rem"
     fontWeight: 400
-    lineHeight: 1.43
+    lineHeight: 1.625
   label:
-    fontFamily: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+    fontFamily: "'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace"
     fontSize: "0.75rem"
     fontWeight: 400
     lineHeight: 1.33
@@ -81,7 +82,7 @@ components:
 
 **Creative North Star: "The Engineer's Letter"**
 
-The page is a letter typeset by a careful engineer: a white sheet, one column, a confident sans for the things you scan (name, section, company) and a monospace for the things you read (role detail, dates, outcomes). It is personal in voice and exact in setting. Nothing on the page exists to look designed; everything exists to be read, then printed, then handed to someone else.
+The page is a letter typeset by a careful engineer: a white sheet, one column, a confident sans for the things you scan (name, section, company, role), a book serif for the things you read (tagline, profile, outcomes), and a monospace for the detail (dates, stack, location). It is personal in voice and exact in setting. Nothing on the page exists to look designed; everything exists to be read, then printed, then handed to someone else.
 
 Density is moderate. A single `max-w-2xl` column (672px) holds everything, with 32px between sections on screen and 24px in print. Whitespace does the separating; borders appear only where a tile needs an edge. The system is flat, neutral and almost entirely achromatic, so the one green dot that marks a live project link reads as a signal rather than decoration. The page must work identically as an A4 sheet: print is a first-class surface, not a fallback.
 
@@ -89,7 +90,7 @@ This system rejects, by name, the anti-references in PRODUCT.md: the **generic C
 
 **Key Characteristics:**
 - One centered column, 672px max, generous vertical rhythm.
-- Sans for headings and names, mono for all detail text.
+- Three voices: sans to scan, serif to read, mono for detail.
 - Achromatic palette with cool-gray neutrals; color is a signal, never a theme.
 - Flat surfaces: hairline borders instead of shadows.
 - Light is canonical and matches the printed sheet. A dark variant is planned, not shipped.
@@ -101,6 +102,7 @@ A cool, near-achromatic neutral palette with a single functional green.
 ### Primary
 - **Ink** (#030712): every heading, the name, company names, and primary text. 20:1 on Sheet. The page's only voice color.
 - **Graphite** (#111827): filled surfaces that need weight, such as interest badges and the default button. Text on tag badges.
+- **Prose** (#1f2937): all reading text set in the serif (tagline, profile, bullets). Darker than Slate Note so paragraphs read comfortably in print.
 
 ### Neutral
 - **Slate Note** (#575e6b): all secondary and detail text (profile paragraphs, role bullets, dates, location, descriptions). 6.5:1 on Sheet, 5.9:1 on Mist, so it passes AA at 12px.
@@ -122,21 +124,22 @@ A cool, near-achromatic neutral palette with a single functional green.
 ## 3. Typography
 
 **Display Font:** Inter (with ui-sans-serif, system-ui)
-**Body Font:** System monospace stack (ui-monospace, SFMono-Regular, Menlo, Consolas)
+**Body Font:** Source Serif 4 (with Georgia, serif)
+**Label/Mono Font:** Geist Mono (with ui-monospace)
 
-**Character:** Inter sets the scannable skeleton (name, sections, companies) in a neutral, confident sans. The mono carries every detail line and gives the page its engineer's handwriting: precise, tabular, a little personal.
+**Character:** Inter sets the scannable skeleton in a neutral, confident sans. Source Serif carries everything you read, like a typeset letter, which is where the warmth comes from. Geist Mono marks the detail (dates, stack, location) as the engineer's handwriting: precise and tabular. All three load through `next/font/google`.
 
 ### Hierarchy
 - **Display** (700, 1.5rem / 24px, 1.333): the name only. Once per page.
 - **Headline** (700, 1.25rem / 20px, 1.4): section titles ("Profile", "Work Experience", "Education"). Plain words, no kickers, no numbers.
-- **Title** (600, 1rem / 16px, 1): company, school and tile titles. Role titles use the same weight in mono at 14px.
-- **Body** (mono 400, 0.875rem / 14px, 1.43): profile paragraphs, tagline, education degree. Column width caps it near 75ch.
-- **Label** (mono 400, 0.75rem / 12px, 1.33): role bullets, company blurbs, dates, location, badges. Badges use 600. Dates always use `tabular-nums`.
+- **Title** (600, 1rem / 16px, 1): company, school and tile titles. Role titles use the same weight at 15px.
+- **Body** (serif 400, 1rem / 16px, 1.625, Prose color): profile paragraphs. Bullets at 15px, the tagline at 18px. Print: profile 10pt, bullets 9.5pt, tagline 12pt. Column width caps it near 75ch.
+- **Label** (mono 400, 0.75rem / 12px, 1.33): company blurbs, dates, location, the stack line, badges, education degree. Badges use 600. Dates always use `tabular-nums`.
 
 ### Named Rules
-**The Two-Voice Rule.** Sans is for what you scan, mono is for what you read. Never set a heading in mono or a bullet in sans.
+**The Three-Voice Rule.** Sans is for what you scan, serif is for what you read, mono is for detail. Never set a heading in serif, a bullet in mono, or a date in serif.
 
-**The No-Shouting Rule.** No uppercase labels, no tracked-out kickers, no sizes above 24px. Hierarchy comes from weight and the sans/mono switch.
+**The No-Shouting Rule.** No uppercase labels, no tracked-out kickers, no sizes above 24px. Hierarchy comes from weight and the switch between the three voices.
 
 ## 4. Elevation
 
@@ -171,13 +174,13 @@ Refined and restrained: components are typographic first and only take a box whe
 Each company ends with one mono line in Slate Note: a bold Ink "Stack" label, then up to 8 technologies separated by middle dots, most relevant first. Never pills; each technology stays unbroken.
 
 ### Timeline (signature)
-The only structural ornament on the page: a vertical rule tying multiple roles at one company together, so promotions read as a single story. Each role is a mono title with right-aligned dates over a disc-bulleted list. Roles never split across a printed page (`page-break-inside: avoid`), and the company header never orphans from its first role.
+The only structural ornament on the page: a vertical rule tying multiple roles at one company together, so promotions read as a single story. Each role is a sans title with right-aligned mono dates over a disc-bulleted serif list. In print a role may split between bullets, but a title never ends a page and the company header never orphans from its first role.
 
 ## 6. Do's and Don'ts
 
 ### Do:
 - **Do** keep everything in one centered column at 672px max, with 32px between sections (24px in print).
-- **Do** set headings and names in Inter and every detail line in mono, per the Two-Voice Rule.
+- **Do** set headings in Inter, reading text in Source Serif, and detail in Geist Mono, per the Three-Voice Rule.
 - **Do** keep secondary text at Slate Note (#575e6b) or darker; it is 6.5:1 on Sheet.
 - **Do** use `tabular-nums` for every date.
 - **Do** check every layout change in print: section order, page breaks, and hidden/shown elements. See `docs/DESIGN.md` for the canonical print rules.
