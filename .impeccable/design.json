@@ -46,7 +46,7 @@
       "name": "Tag Badge",
       "kind": "chip",
       "refersTo": "badge-tag",
-      "description": "Technology and company badges.",
+      "description": "Company location badges.",
       "html": "<span class=\"ds-badge-tag\">TypeScript</span>",
       "css": ".ds-badge-tag { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 6px; background: #f3f4f6; color: #111827; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; font-weight: 600; white-space: nowrap; transition: background-color 150ms; } .ds-badge-tag:hover { background: rgb(243 244 246 / 0.6); }"
     },

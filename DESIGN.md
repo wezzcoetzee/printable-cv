@@ -156,7 +156,7 @@ Refined and restrained: components are typographic first and only take a box whe
 - **Print:** the icon row is hidden and replaced by plain underlined email and phone text.
 
 ### Chips (badges)
-- **Tag:** Mist fill, Graphite mono text at 12px (10px on project tiles), 600 weight, 6px radius, no border. Used for technologies and company badges.
+- **Tag:** Mist fill, Graphite mono text at 12px (10px on project tiles), 600 weight, 6px radius, no border. Used for company location badges.
 - **Interest:** Graphite fill at 80%, Sheet text. Web only; hidden in print.
 
 ### Cards / Containers
@@ -166,6 +166,9 @@ Refined and restrained: components are typographic first and only take a box whe
 
 ### Navigation
 - **Command menu (⌘J):** a ShadCN command dialog listing external links. On xl screens a fixed bottom hint bar shows the shortcut in a small `kbd`; below xl a floating circular button opens it. Both hidden in print.
+
+### Stack line
+Each company ends with one mono line in Slate Note: a bold Ink "Stack" label, then up to 8 technologies separated by middle dots, most relevant first. Never pills; each technology stays unbroken.
 
 ### Timeline (signature)
 The only structural ornament on the page: a vertical rule tying multiple roles at one company together, so promotions read as a single story. Each role is a mono title with right-aligned dates over a disc-bulleted list. Roles never split across a printed page (`page-break-inside: avoid`), and the company header never orphans from its first role.
