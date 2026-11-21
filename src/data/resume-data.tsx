@@ -5,8 +5,7 @@ export const RESUME_DATA = {
   initials: "WC",
   location: "Auckland, New Zealand, NZST",
   locationLink: "https://www.google.com/maps/place/Auckland",
-  about:
-    "Tech Lead | Principal Engineer",
+  about: "Tech Lead at IDEXX · previously Principal Engineer at Eneco",
   avatarUrl: "https://avatars.githubusercontent.com/u/15249642?v=4",
   personalWebsiteUrl: "https://www.wezzcoetzee.com",
   contact: {
@@ -31,8 +30,8 @@ export const RESUME_DATA = {
     ],
   },
   profile: [
-    "As a Software Engineer with over 10 years of experience, I specialize in crafting mission-critical systems using a diverse array of technologies. This broad expertise allows me to make informed decisions in software design and development.",
-    "My core strength lies in tackling complex challenges—be it debugging intricate system issues, implementing sophisticated requirements, or optimizing performance bottlenecks. I excel at designing scalable and reliable systems that meet the highest standards of quality. Additionally, I bring proven leadership skills, guiding teams, engaging stakeholders, and mentoring junior developers.",
+    "I was the technical lead on Eneco's Virtual Power Plant, designed the solution that cut battery onboarding from six months to two weeks, and spoke about the platform at GOTO Amsterdam. Today I lead IDEXX's mass communications platform, which sends SMS and email to vet clinics' clients.",
+    "Twelve years across energy, online gaming and veterinary software, in South Africa, the Netherlands and New Zealand. I lead small teams, set standards they actually keep, and still write a lot of the code.",
   ],
   education: [
     {
@@ -45,21 +44,21 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Idexx",
+      company: "IDEXX",
       link: "https://www.idexx.com",
       badges: ["Auckland, New Zealand"],
       about: "ezyVet is a cloud-based veterinary practice management software, and Vello is its integrated client engagement platform, developed by IDEXX to help vet clinics communicate with pet owners.",
       positions: [
         {
-          title: "Senior Software Engineer",
+          title: "Tech Lead",
           technologies: ["AWS", "Claude Code", "Cursor AI", "DataDog", "DynamoDB", "GitHub", "Go", "Kafka", "Model Context Protocol (MCP)", "NestJs", "PostgreSQL", "React", "SendGrid", "SQS", "TypeScript"],
           start: "Dec 2025",
           end: "Current",
           description: [
             "Technical Lead for Mass Communications System, enabling the sending of notifications to clients via SMS and email.",
-            "Introduce standards and improve developer experience, using Claude Code and Cursor.",
-            "Built and distribute plugins/skills used throughout Idexx.",
-            "Created MCP Servers to serve data to internal business to help understand how the system is being used.",
+            "Introduced engineering standards and improved developer experience using Claude Code and Cursor.",
+            "Built and shipped plugins and skills used across IDEXX.",
+            "Built MCP servers that let internal teams query how the system is being used.",
             "Led initiatives to improve monitoring and observability through DataDog."
           ]
         }
@@ -69,7 +68,7 @@ export const RESUME_DATA = {
       company: "Web Next",
       link: "https://www.linkedin.com/company/webdotnext/",
       badges: ["Worldwide"],
-      about: "Web Next is a software development company that provides software development services to businesses and organizations around the world.",
+      about: "My consultancy, building web apps, loyalty platforms and trading tools for clients in South Africa and worldwide.",
       positions: [
         {
           title: "Software Consultant & Founder",
@@ -78,11 +77,11 @@ export const RESUME_DATA = {
           end: "Current",
           description: [
             "Built a rewards platform as a Progressive Web App for RCL Foods (South Africa), which included an integration with a 3rd party insurance provider.",
-            "Built two separate loyalty platforms as a PWA for RCL Foods (South Africa)",
-            "Built a people management PWA for RCL Foods(South Africa)",
-            "Built a risk management application to educate users on how to safely trade and manage their risk (Global)",
-            "Built a trading bot that uses data to determine when to intelligently dollar cost average into the market (Global)",
-            "Built a SaaS trading bot with the ability to copy trade and follow smart traders strategies, completely hands free (Global)",
+            "Built two separate loyalty platforms as a PWA for RCL Foods (South Africa).",
+            "Built a people management PWA for RCL Foods (South Africa).",
+            "Built a risk management application to educate users on how to safely trade and manage their risk (Global).",
+            "Built a trading bot that uses data to decide when to dollar-cost average into the market (Global).",
+            "Built a SaaS trading bot that copies the trades of selected traders, completely hands-free (Global).",
           ]
         }
       ]
@@ -121,7 +120,7 @@ export const RESUME_DATA = {
             "Designed migration strategy to move to a new hosting provider.",
             "Implemented standards across teams to reduce technical debt and improve the quality of the codebase.",
             "Designed multi-region setup for the VPP, enabling a more resilient system.",
-            "Helped with investigating bottle necks and implementing complex features across teams.",
+            "Helped investigate bottlenecks and implement complex features across teams.",
             "Led investigation and designed solution to bring battery onboarding from 6 months to 2 weeks.",
             "Helped introduce AI standards and improve developer experience across Eneco, using Claude Code and GitHub Copilot."
           ]
@@ -162,7 +161,7 @@ export const RESUME_DATA = {
     {
       company: "Capgemini contracted to Eneco",
       link: "https://www.capgemini.com",
-      about: "Capgemini is a global consulting and technology services company, providing a wide range of services to businesses and organizations around the world.",
+      about: "Global technology consultancy. I was placed with Eneco to lead the Virtual Power Plant.",
       badges: ["Rotterdam, The Netherlands", "Contracted to Eneco"],
       positions: [
         {
@@ -187,7 +186,7 @@ export const RESUME_DATA = {
           start: "Mar 2022",
           end: "Sep 2024",
           description: [
-            "Technical Lead on the Virtual Power Plant for Eneco (more information about this in the Eneco section).",
+            "Technical Lead on the Virtual Power Plant for Eneco (see Eneco above).",
             "Spoke at GoTo Amsterdam about the VPP.",
             "Improved the interview process for Capgemini and led an initiative to help with the recruitment of South African developers.",
           ]
@@ -221,7 +220,7 @@ export const RESUME_DATA = {
           description: [
             "Designed and developed the new online casino lobby product to address performance issues and improve the user experience.",
             "Added a BFF API to handle integrating with multiple backend systems, and added caching.",
-            "Moved to using the Angular framework, and making use of features like lazy loading, etc.",
+            "Moved the lobby to Angular and introduced lazy loading.",
             "Designed a translation solution for banking to reduce testing times.",
             "Set up Azure CICD pipelines for the lobby.",
             "Led an initiative to implement LaunchDarkly feature flags to reduce production incidents.",
@@ -263,9 +262,9 @@ export const RESUME_DATA = {
           start: "Nov 2016",
           end: "Nov 2017",
           description: [
-            "Developed a mobile application that was used to manage and find meeting rooms for our Durban office of 2500 people. This project won an award; see achievements section.",
+            "Developed a mobile application to find and book meeting rooms for a Durban office of over 2,000 people. It won the Tesla Innovation Award.",
             "Developed a platform used in the provisioning of Virtual Machines, reducing the time taken from 4-6 hours to 30 minutes.",
-            "Spoke at a conference held by Derivco about using the Iconics Framework to develop a mobile application."
+            "Spoke at a Derivco conference about building a mobile application with the Ionic Framework."
           ]
         },
         {
@@ -292,8 +291,8 @@ export const RESUME_DATA = {
     {
       company: "CompRSA",
       link: "https://www.comprsa.com",
-      badges: ["PE, South Africa"],
-      about: "CompRSA is a software development company that provides software development services to businesses and organizations.",
+      badges: ["Port Elizabeth, South Africa"],
+      about: "A software house in Port Elizabeth, where I started my career.",
       positions: [
         {
           title: "Junior Software Engineer",
@@ -310,7 +309,6 @@ export const RESUME_DATA = {
   ],
   interests: [
     "Software Architecture",
-    "Software Development",
     "Blockchain",
     "Performance Optimization",
     "Mentoring",
@@ -511,7 +509,7 @@ export const RESUME_DATA = {
       title: "Email Verification",
       techStack: ["Go"],
       description:
-        "A tool that helps you verify if emails exist at scale",
+        "A tool that verifies whether email addresses exist, at scale.",
       link: {
         label: "Email Verification",
         href: "https://github.com/wezzcoetzee/email-verification",
