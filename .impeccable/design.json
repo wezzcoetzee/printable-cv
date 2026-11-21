@@ -97,7 +97,7 @@
       "Do set headings and names in Inter and every detail line in mono, per the Two-Voice Rule.",
       "Do keep secondary text at Slate Note (#575e6b) or darker; it is 6.5:1 on Sheet.",
       "Do use tabular-nums for every date.",
-      "Do check every layout change in print: section order (Profile, Education, Achievements, then Work Experience on a new page), page breaks, and hidden/shown elements. See docs/DESIGN.md for the canonical print rules.",
+      "Do check every layout change in print: section order, page breaks, and hidden/shown elements. See docs/DESIGN.md for the canonical print rules.",
       "Do carry warmth in the copy, not in the palette."
     ],
     "donts": [
