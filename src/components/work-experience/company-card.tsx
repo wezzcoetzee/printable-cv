@@ -24,9 +24,10 @@ export function CompanyCard({
   positions,
 }: CompanyCardProps) {
   const showTimeline = positions.length > 1;
+  // Lists are curated most-relevant first in resume-data, so keep that order.
   const technologies = Array.from(
     new Set(positions.flatMap((position) => position.technologies)),
-  ).sort((a, b) => a.localeCompare(b));
+  );
 
   return (
     <Card className="mb-4 print:mb-0">
@@ -72,13 +73,15 @@ export function CompanyCard({
         </div>
 
         {technologies.length > 0 && (
-          <div className="company-tech mt-4 flex flex-wrap gap-1 print:mt-3">
-            {technologies.map((tech) => (
-              <Badge key={tech} variant="secondary" className="text-xs print:py-0">
+          <p className="company-tech mt-4 text-pretty font-mono text-xs text-muted-foreground print:mt-3">
+            <span className="font-semibold text-foreground">Stack</span>{" "}
+            {technologies.map((tech, index) => (
+              <span key={tech} className="whitespace-nowrap">
+                {index > 0 && " · "}
                 {tech}
-              </Badge>
+              </span>
             ))}
-          </div>
+          </p>
         )}
       </CardContent>
     </Card>

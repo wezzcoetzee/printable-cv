@@ -51,7 +51,7 @@ export const RESUME_DATA = {
       positions: [
         {
           title: "Tech Lead",
-          technologies: ["AWS", "Claude Code", "Cursor AI", "DataDog", "DynamoDB", "GitHub", "Go", "Kafka", "Model Context Protocol (MCP)", "NestJs", "PostgreSQL", "React", "SendGrid", "SQS", "TypeScript"],
+          technologies: ["TypeScript", "Go", "NestJS", "AWS", "Kafka", "DynamoDB", "PostgreSQL", "MCP"],
           start: "Dec 2025",
           end: "Current",
           description: [
@@ -72,7 +72,7 @@ export const RESUME_DATA = {
       positions: [
         {
           title: "Software Consultant & Founder",
-          technologies: ["Azure", "Claude Code", "Cloudflare", "Cursor AI", "Docker", "GitHub", "Go", "NestJs", "PostgreSQL", "React", "RabbitMQ", "Redis", "Solidity", "TypeScript"],
+          technologies: ["TypeScript", "Go", "NestJS", "React", "PostgreSQL", "Redis", "Azure", "Solidity"],
           start: "Mar 2020",
           end: "Current",
           description: [
@@ -94,25 +94,7 @@ export const RESUME_DATA = {
       positions: [
         {
           title: "Principal Engineer",
-          technologies: [
-            "Azure",
-            "C#",
-            "Claude Code",
-            "Cosmos",
-            "Docker",
-            "Distributed Systems",
-            "Event Driven Architecture",
-            "EventHubs",
-            "GitHub Copilot",
-            "Kafka",
-            "Microservices",
-            "Mongo",
-            "Polly",
-            "RabbitMQ",
-            "REST",
-            "ServiceBus",
-            "SQL",
-          ],
+          technologies: ["C#", "Azure", "Kafka", "Event Hubs", "Service Bus", "Cosmos DB", "RabbitMQ", "Event-driven architecture"],
           start: "Jun 2025",
           end: "Dec 2025",
           description: [
@@ -127,23 +109,7 @@ export const RESUME_DATA = {
         },
         {
           title: "Technical Lead",
-          technologies: [
-            "Azure",
-            "C#",
-            "Cosmos",
-            "Docker",
-            "Distributed Systems",
-            "Event Driven Architecture",
-            "EventHubs",
-            "Kafka",
-            "Microservices",
-            "Mongo",
-            "Polly",
-            "RabbitMQ",
-            "REST",
-            "ServiceBus",
-            "SQL",
-          ],
+          technologies: ["C#", "Azure", "Kafka", "Event Hubs", "Service Bus", "Cosmos DB", "RabbitMQ", "Event-driven architecture"],
           start: "Sep 2024",
           end: "Jun 2025",
           description: [
@@ -166,23 +132,7 @@ export const RESUME_DATA = {
       positions: [
         {
           title: "Managing Consultant",
-          technologies: [
-            "Azure",
-            "C#",
-            "Cosmos",
-            "Distributed Systems",
-            "Docker",
-            "Event Driven Architecture",
-            "EventHubs",
-            "Kafka",
-            "Microservices",
-            "Mongo",
-            "Polly",
-            "RabbitMQ",
-            "REST",
-            "ServiceBus",
-            "SQL",
-          ],
+          technologies: [],
           start: "Mar 2022",
           end: "Sep 2024",
           description: [
@@ -201,20 +151,7 @@ export const RESUME_DATA = {
       positions: [
         {
           title: "Senior Software Engineer | Technical Lead",
-          technologies: [
-            "Angular",
-            "Azure",
-            "C#",
-            "Docker",
-            "GraphQL",
-            "Kafka",
-            "NGRX",
-            "Polly",
-            "RabbitMQ",
-            "REST",
-            "SQL",
-            "TypeScript",
-          ],
+          technologies: ["C#", "Angular", "TypeScript", "Azure", "Kafka", "RabbitMQ", "GraphQL", "SQL"],
           start: "Oct 2019",
           end: "Mar 2022",
           description: [
@@ -229,16 +166,7 @@ export const RESUME_DATA = {
         },
         {
           title: "Developer Level 2",
-          technologies: [
-            "Angular",
-            "Azure",
-            "C#",
-            "Entity Framework",
-            "RabbitMQ",
-            "REST",
-            "SQL",
-            "TypeScript",
-          ],
+          technologies: ["C#", "Angular", "TypeScript", "Azure", "RabbitMQ", "SQL"],
           start: "Nov 2017",
           end: "Oct 2019",
           description: [
@@ -249,16 +177,7 @@ export const RESUME_DATA = {
         },
         {
           title: "Developer Level 1",
-          technologies: [
-            "Angular",
-            "Azure",
-            "C#",
-            "Entity Framework",
-            "RabbitMQ",
-            "REST",
-            "SQL",
-            "TypeScript",
-          ],
+          technologies: ["C#", "Angular", "TypeScript", "Azure", "RabbitMQ", "SQL"],
           start: "Nov 2016",
           end: "Nov 2017",
           description: [
@@ -269,16 +188,7 @@ export const RESUME_DATA = {
         },
         {
           title: "Junior Developer",
-          technologies: [
-            "Angular",
-            "Azure",
-            "C#",
-            "Entity Framework",
-            "RabbitMQ",
-            "REST",
-            "SQL",
-            "TypeScript",
-          ],
+          technologies: ["C#", "Angular", "TypeScript", "Azure", "RabbitMQ", "SQL"],
           start: "Oct 2015",
           end: "Nov 2016",
           description: [
@@ -296,7 +206,7 @@ export const RESUME_DATA = {
       positions: [
         {
           title: "Junior Software Engineer",
-          technologies: ["Bootstrap", "C#", "CSS", "JavaScript", "KnockoutJS", "REST", "SQL"],
+          technologies: ["C#", "JavaScript", "KnockoutJS", "SQL"],
           start: "Feb 2014",
           end: "Oct 2015",
           description: [
