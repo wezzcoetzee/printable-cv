@@ -19,21 +19,23 @@ Props: `links: { url: string; title: string }[]`
 
 Renders one employer. Shows company name (linked), location badges, optional `about` blurb,
 and a list of positions. When a company has more than one position, renders a left-border
-timeline. Delegates each position to `TimelineItem`.
+timeline. Delegates each position to `TimelineItem`. Ends with a single "Stack" line: the
+union of its positions' `technologies`, in data order (lists are curated most-relevant first,
+up to 8; leave a role's list empty when it repeats another company's).
 
 Props: `company`, `link`, `badges`, `about?`, `positions[]`
 
 ### `src/components/work-experience/timeline-item.tsx`
 
-Renders one role within a company: title, date range, technology badges, and bullet descriptions.
-Carries `timeline-item` class for print `page-break-inside: avoid`.
+Renders one role within a company: title, date range, and bullet descriptions.
+Its title row carries `timeline-item-head` so a role title never ends a printed page; bullets may split between pages.
 
 Props: `position: { title, technologies, start, end, description[] }`
 
 ### `src/components/project-card.tsx`
 
 Card for the Projects grid. Shows title (linked if `link` provided), mono description, and
-tech stack badges. In print the URL is shown in plain text via a `print:visible` div.
+tech stack badges. Hidden in print with the rest of the Projects section.
 
 Props: `title`, `description`, `tags`, `link?`
 
@@ -83,7 +85,7 @@ Key fields:
 2. Create a card component in `src/components/` if the section needs one.
 3. Import and render the section in `src/app/page.tsx` inside a `<Section>` wrapper.
 4. Decide print visibility: add `print:hidden` or leave visible.
-5. Assign `print:order-*` if the print order differs from web order.
+5. Print follows web order. Keep it that way; check page breaks with a print preview.
 
 ---
 

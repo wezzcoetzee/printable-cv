@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { TimelineItem } from "./timeline-item";
@@ -24,13 +25,14 @@ export function CompanyCard({
   positions,
 }: CompanyCardProps) {
   const showTimeline = positions.length > 1;
+  // Lists are curated most-relevant first in resume-data, so keep that order.
   const technologies = Array.from(
     new Set(positions.flatMap((position) => position.technologies)),
-  ).sort((a, b) => a.localeCompare(b));
+  );
 
   return (
-    <Card className="mb-4">
-      <CardHeader className="company-header">
+    <Card className="mb-4 print:mb-0">
+      <CardHeader className="company-header print:block">
         <div className="flex items-center gap-2 flex-wrap text-base">
           <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
             <a className="hover:underline" href={link}>
@@ -55,7 +57,7 @@ export function CompanyCard({
         )}
       </CardHeader>
 
-      <CardContent className="mt-4">
+      <CardContent className="mt-4 print:mt-3">
         <div
           className={
             showTimeline
@@ -72,13 +74,17 @@ export function CompanyCard({
         </div>
 
         {technologies.length > 0 && (
-          <div className="mt-4 flex flex-wrap gap-1">
-            {technologies.map((tech) => (
-              <Badge key={tech} variant="secondary" className="text-xs">
-                {tech}
-              </Badge>
+          <p className="company-tech mt-4 text-pretty font-mono text-xs text-muted-foreground print:mt-3">
+            <span className="font-semibold text-foreground">Stack</span>{" "}
+            {technologies.map((tech, index) => (
+              // The separator sits outside the no-wrap span so the line can
+              // still wrap between technologies.
+              <Fragment key={tech}>
+                {index > 0 && " · "}
+                <span className="whitespace-nowrap">{tech}</span>
+              </Fragment>
             ))}
-          </div>
+          </p>
         )}
       </CardContent>
     </Card>

@@ -56,16 +56,16 @@ export default function Page() {
   };
 
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-12">
+    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-0">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="mx-auto w-full max-w-2xl flex flex-col gap-y-8 bg-background print:gap-y-6">
+      <section className="mx-auto w-full max-w-2xl flex flex-col gap-y-8 bg-background print:gap-y-5">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+            <p className="max-w-md text-pretty font-serif text-lg leading-snug text-prose print:text-[12pt]">
               {RESUME_DATA.about}
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
@@ -143,23 +143,23 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          <Avatar className="size-28 print:hidden">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
-        <Section className="print:order-1">
+        <Section>
           <h2 className="text-xl font-bold">Profile</h2>
 
           {RESUME_DATA.profile.map((paragraph, index) => {
             return (
-              <p key={index} className="text-pretty font-mono text-sm text-muted-foreground">
+              <p key={index} className="text-pretty font-serif text-base leading-relaxed text-prose print:text-[10pt] print:leading-normal">
                 {paragraph}
               </p>
             );
           })}
         </Section>
-        <Section className="print:order-4 print-force-new-page">
+        <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => (
             <CompanyCard
@@ -172,7 +172,7 @@ export default function Page() {
             />
           ))}
         </Section>
-        <Section className="print:order-2">
+        <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
             return (
@@ -182,7 +182,7 @@ export default function Page() {
                     <h3 className="font-semibold leading-none">
                       {education.school}
                     </h3>
-                    <div className="text-sm tabular-nums text-muted-foreground">
+                    <div className="font-mono text-xs tabular-nums text-muted-foreground">
                       {education.start} - {education.end}
                     </div>
                   </div>
@@ -193,9 +193,9 @@ export default function Page() {
           })}
         </Section>
 
-        <Section className="print:order-3 scroll-mb-16">
+        <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">Achievements</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
+          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:mx-0 print:grid-cols-3 print:gap-2">
             {RESUME_DATA.achievements.map((achievement) => {
               return (
                 <AchievementCard
