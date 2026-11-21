@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { TimelineItem } from "./timeline-item";
@@ -76,10 +77,12 @@ export function CompanyCard({
           <p className="company-tech mt-4 text-pretty font-mono text-xs text-muted-foreground print:mt-3">
             <span className="font-semibold text-foreground">Stack</span>{" "}
             {technologies.map((tech, index) => (
-              <span key={tech} className="whitespace-nowrap">
+              // The separator sits outside the no-wrap span so the line can
+              // still wrap between technologies.
+              <Fragment key={tech}>
                 {index > 0 && " · "}
-                {tech}
-              </span>
+                <span className="whitespace-nowrap">{tech}</span>
+              </Fragment>
             ))}
           </p>
         )}
