@@ -14,6 +14,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { AchievementCard } from "@/components/achievement-card";
 import { CompanyCard } from "@/components/work-experience/company-card";
+import { PrintButton } from "@/components/print-button";
 
 export const metadata: Metadata = {
   alternates: {
@@ -128,6 +129,7 @@ export default function Page() {
                   </a>
                 </Button>
               ))}
+              <PrintButton />
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
               {RESUME_DATA.contact.email ? (
@@ -143,7 +145,7 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28 print:hidden">
+          <Avatar className="size-28 max-sm:hidden print:hidden">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>

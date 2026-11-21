@@ -11,8 +11,6 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command";
-import { Button } from "./ui/button";
-import { CommandIcon } from "lucide-react";
 import { DialogTitle } from "./ui/dialog";
 
 interface Props {
@@ -43,15 +41,6 @@ export const CommandMenu = ({ links }: Props) => {
         </kbd>{" "}
         to open the command menu
       </p>
-      <Button
-        onClick={() => setOpen((open) => !open)}
-        variant="outline"
-        size="icon"
-        aria-label="Open command menu"
-        className="fixed bottom-4 right-4 flex rounded-full shadow-2xl print:hidden xl:hidden"
-      >
-        <CommandIcon className="my-6 size-6" />
-      </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
         <DialogTitle className="sr-only">Command Menu</DialogTitle>
         <CommandInput placeholder="Type a command or search..." />

@@ -36,7 +36,18 @@ no toggle implemented — the site always renders in light mode. See [PLANS.md](
 - `max-w-2xl` centered column with `mx-auto`
 - Horizontal padding: `p-4` mobile → `p-16` desktop → none in print (`@page` sets A4 margins of 14mm/16mm)
 - Sections stack vertically with `gap-y-8` (web) / `gap-y-6` (print)
-- Avatar: `size-28`, right-aligned in header row, hidden in print
+- Avatar: `size-28`, right-aligned in header row, hidden on phones (`< sm`) and in print
+
+### Phones (`< sm`, 640px)
+
+The page reads like a letter at phone width, so the text gets the whole column:
+
+- No avatar; name and tagline run full width.
+- No timeline rail. Roles in a multi-role company are split by a hairline instead.
+- The date sits above the role title (`flex-col-reverse`, DOM order unchanged).
+- No floating button. Print lives in the contact row as a `PrintButton`.
+
+Print keeps the desktop layout through explicit `print:` variants, so it never depends on the A4 page width crossing `sm`.
 
 ## Print decisions
 
@@ -48,7 +59,7 @@ no toggle implemented — the site always renders in light mode. See [PLANS.md](
 | Projects | Too many items; page-space is limited |
 | Contact icon buttons | Replaced by plain-text email/phone |
 | Avatar | A remote image; prints as a gray initials box when it fails |
-| CommandMenu (button + hint) | No keyboard interaction when printed |
+| CommandMenu hint, Print button | No keyboard interaction when printed |
 
 ### Sections shown only in print
 
@@ -73,6 +84,6 @@ Print follows web order, so experience comes straight after the profile on page 
 
 ## Command palette UI
 
-- `< xl` breakpoint: floating round `Button` fixed at `bottom-4 right-4`
 - `xl+` breakpoint: fixed bottom bar with `⌘J` hint text
-- Both hidden in print via `print:hidden`
+- Below `xl` there is no hint; the contact row's Print button covers the one action touch users need
+- Hidden in print via `print:hidden`
