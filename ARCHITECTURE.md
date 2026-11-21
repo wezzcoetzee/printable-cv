@@ -89,12 +89,13 @@ Key patterns:
 
 ## Command palette
 
-`CommandMenu` (`src/components/command-menu.tsx`) is the only client component.
+`CommandMenu` (`src/components/command-menu.tsx`) and `PrintButton`
+(`src/components/print-button.tsx`) are the only client components.
 
 - Keyboard trigger: `⌘J` (or `Ctrl+J`)
-- Mobile trigger: floating round button (bottom-right, hidden at `xl+`)
-- Desktop hint: fixed bottom bar visible at `xl+`, hidden on mobile
-- Both triggers hidden in print (`print:hidden`)
+- Desktop hint: fixed bottom bar visible at `xl+`, hidden below it
+- Touch users print from the `PrintButton` in the header contact row
+- Hint and button hidden in print (`print:hidden`)
 - Actions: Print (`window.print()`), links (personal website + social profiles)
 - Built on `cmdk` 0.2 via ShadCN's `Command` primitive
 

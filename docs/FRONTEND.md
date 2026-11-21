@@ -15,11 +15,16 @@ Client component. Keyboard shortcut `⌘J` / `Ctrl+J` opens a `cmdk` dialog with
 
 Props: `links: { url: string; title: string }[]`
 
+### `src/components/print-button.tsx`
+
+Client component. An outline "Print" button in the header contact row that calls
+`window.print()`. It is the touch-friendly way to print, since `⌘J` needs a keyboard.
+
 ### `src/components/work-experience/company-card.tsx`
 
 Renders one employer. Shows company name (linked), location badges, optional `about` blurb,
 and a list of positions. When a company has more than one position, renders a left-border
-timeline. Delegates each position to `TimelineItem`. Ends with a single "Stack" line: the
+timeline (from `sm` up and in print; phones drop the rail). Delegates each position to `TimelineItem`. Ends with a single "Stack" line: the
 union of its positions' `technologies`, in data order (lists are curated most-relevant first,
 up to 8; leave a role's list empty when it repeats another company's).
 
@@ -28,6 +33,7 @@ Props: `company`, `link`, `badges`, `about?`, `positions[]`
 ### `src/components/work-experience/timeline-item.tsx`
 
 Renders one role within a company: title, date range, and bullet descriptions.
+On phones the date sits above the title and a hairline separates roles.
 Its title row carries `timeline-item-head` so a role title never ends a printed page; bullets may split between pages.
 
 Props: `position: { title, technologies, start, end, description[] }`

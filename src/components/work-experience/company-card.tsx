@@ -61,7 +61,9 @@ export function CompanyCard({
         <div
           className={
             showTimeline
-              ? "timeline-container relative ml-4 border-l-2 border-border pl-8 print:border-muted-foreground"
+              ? // Phones drop the rail so bullets get the full width; roles are
+              // split by a hairline in TimelineItem instead.
+              "timeline-container relative sm:ml-4 sm:border-l-2 sm:border-border sm:pl-8 print:ml-4 print:border-l-2 print:border-muted-foreground print:pl-8"
               : ""
           }
         >
