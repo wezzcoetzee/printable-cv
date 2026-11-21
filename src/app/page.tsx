@@ -26,7 +26,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: RESUME_DATA.name,
-    jobTitle: RESUME_DATA.about,
+    jobTitle: RESUME_DATA.work[0].positions[0].title,
     url: RESUME_DATA.personalWebsiteUrl,
     image: RESUME_DATA.avatarUrl,
     email: RESUME_DATA.contact.email,

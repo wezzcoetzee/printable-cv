@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     default: "Wesley Coetzee | Tech Lead | Principal Engineer",
     template: "%s | Wesley Coetzee"
   },
-  description: "Tech Lead | Principal Engineer with over 10 years of experience in software development. Specializing in crafting mission-critical systems using Azure, AWS, C#, TypeScript, and more.",
+  description: "Tech Lead at IDEXX and former Principal Engineer at Eneco, with twelve years building distributed, event-driven systems in Azure and AWS. Led Eneco's Virtual Power Plant and cut battery onboarding from six months to two weeks.",
   keywords: ["Wesley Coetzee", "Software Engineer", "Engineering Manager", "Principal Engineer", "Technical Lead", "Azure", "AWS", "C#", "TypeScript", "Go", "Kafka", "Software Development", "Auckland", "New Zealand"],
   authors: [{ name: "Wesley Coetzee" }],
   creator: "Wesley Coetzee",
@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     locale: "en_NZ",
     url: "https://cv.wezzcoetzee.com",
     title: "Wesley Coetzee | Tech Lead | Principal Engineer",
-    description: "Tech Lead | Principal Engineer with over 10 years of experience in software development. Specializing in crafting mission-critical systems using Azure, AWS, C#, TypeScript, and more.",
+    description: "Tech Lead at IDEXX and former Principal Engineer at Eneco, with twelve years building distributed, event-driven systems in Azure and AWS. Led Eneco's Virtual Power Plant and cut battery onboarding from six months to two weeks.",
     siteName: "Wesley Coetzee - Portfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Wesley Coetzee | Tech Lead | Principal Engineer",
-    description: "Tech Lead | Principal Engineer with over 10 years of experience in software development.",
+    description: "Tech Lead at IDEXX and former Principal Engineer at Eneco, building distributed systems for twelve years.",
     creator: "@wezzcoetzee",
   },
   robots: {
