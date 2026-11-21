@@ -65,7 +65,7 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+            <p className="max-w-md text-pretty font-serif text-lg leading-snug text-prose print:text-[12pt]">
               {RESUME_DATA.about}
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
@@ -153,7 +153,7 @@ export default function Page() {
 
           {RESUME_DATA.profile.map((paragraph, index) => {
             return (
-              <p key={index} className="text-pretty font-mono text-sm text-muted-foreground">
+              <p key={index} className="text-pretty font-serif text-base leading-relaxed text-prose print:text-[10pt] print:leading-normal">
                 {paragraph}
               </p>
             );
@@ -182,7 +182,7 @@ export default function Page() {
                     <h3 className="font-semibold leading-none">
                       {education.school}
                     </h3>
-                    <div className="text-sm tabular-nums text-muted-foreground">
+                    <div className="font-mono text-xs tabular-nums text-muted-foreground">
                       {education.start} - {education.end}
                     </div>
                   </div>
