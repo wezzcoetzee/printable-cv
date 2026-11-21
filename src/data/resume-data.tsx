@@ -248,6 +248,76 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Jarvis",
+      techStack: ["Swift", "SwiftUI", "macOS", "Claude Code", "Obsidian"],
+      description:
+        "A macOS Dock replacement with a capture box that hands notes and questions to Claude Code running in an Obsidian vault, and drafts follow-ups after meetings.",
+      link: {
+        label: "Jarvis",
+        href: "https://github.com/wezzcoetzee/jarvis",
+      },
+    },
+    {
+      title: "Notchivity",
+      techStack: ["Swift", "SwiftUI", "macOS", "GitHub CLI"],
+      description:
+        "A notch app showing Claude, Codex and Grok usage across every signed-in account, alongside the status of your open pull requests.",
+      link: {
+        label: "Notchivity",
+        href: "https://github.com/wezzcoetzee/notchivity",
+      },
+    },
+    {
+      title: "What Did I Say",
+      techStack: ["Swift", "macOS", "WhisperKit", "Obsidian"],
+      description:
+        "A menu bar app that detects Slack, Teams and Meet calls, records only with consent, transcribes on-device with WhisperKit, and writes the notes to Obsidian.",
+      link: {
+        label: "What Did I Say",
+        href: "https://github.com/wezzcoetzee/what-did-i-say",
+      },
+    },
+    {
+      title: "Hoarder",
+      techStack: ["Swift", "SwiftUI", "macOS", "Docker"],
+      description:
+        "A menu bar app that watches free disk space across your machines and cleans up what agent coding leaves behind: worktrees, node_modules, Docker and package caches.",
+      link: {
+        label: "Hoarder",
+        href: "https://github.com/wezzcoetzee/hoarder",
+      },
+    },
+    {
+      title: "PrivacyPods",
+      techStack: ["Swift", "macOS", "AirPods", "CoreMotion"],
+      description:
+        "Uses AirPods head tracking to blur the screens you are not looking at, and locks the Mac when you walk away.",
+      link: {
+        label: "PrivacyPods",
+        href: "https://github.com/wezzcoetzee/privacypods",
+      },
+    },
+    {
+      title: "AgentVault",
+      techStack: ["TypeScript", "Swift", "MCP", "Playwright", "Docker"],
+      description:
+        "A self-hosted credential broker that lets an AI agent sign in to sites with Touch ID or chat approval, while a sandboxed browser types the password so the agent never sees it.",
+      link: {
+        label: "AgentVault",
+        href: "https://github.com/wezzcoetzee/hermes-password-manager",
+      },
+    },
+    {
+      title: "Hyperdash",
+      techStack: ["Swift", "SwiftUI", "iOS", "WidgetKit", "Hyperliquid"],
+      description:
+        "A native iOS app for monitoring and trading Hyperliquid wallets, with home screen widgets and every trade gated by Face ID.",
+      link: {
+        label: "Hyperdash",
+        href: "https://github.com/wezzcoetzee/hyperdash",
+      },
+    },
+    {
       title: "SnipSnapp",
       techStack: ["TypeScript", "React", "Vite", "Chrome Extension", "Tailwind CSS"],
       description:
@@ -298,16 +368,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Tokengochi",
-      techStack: ["Swift", "macOS", "Claude Code", "Menu Bar App"],
-      description:
-        "A macOS menu-bar virtual pet that monitors Claude usage and turns session, weekly, and context-window limits into a playful care loop.",
-      link: {
-        label: "Tokengochi",
-        href: "https://github.com/wezzcoetzee/tokengochi",
-      },
-    },
-    {
       title: "Trading Lab",
       techStack: ["TypeScript", "Next.js", "React", "Tailwind CSS"],
       description:
@@ -318,33 +378,13 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Copy Trade Bot",
+      title: "Hyperliquid Trading Bots",
       techStack: ["TypeScript", "Next.js", "Hyperliquid", "PostgreSQL", "Docker"],
       description:
-        "A copy trading bot for Hyperliquid perps that monitors configured wallets and proportionally replicates their trades from a managed dashboard.",
+        "Three automated bots for Hyperliquid: copy trading configured wallets, smart DCA that sizes BTC buys by market conditions, and moving-average crossovers with ATR trailing stops.",
       link: {
-        label: "Copy Trade Bot",
-        href: "https://github.com/wezzcoetzee/copy-trade-bot",
-      },
-    },
-    {
-      title: "Smart DCA Bot",
-      techStack: ["TypeScript", "Next.js", "Hyperliquid", "PostgreSQL", "Docker"],
-      description:
-        "A dollar-cost averaging bot that sizes BTC buys with a multiplier strategy based on market conditions, and benchmarks its ROI against fixed DCA.",
-      link: {
-        label: "Smart DCA Bot",
-        href: "https://github.com/wezzcoetzee/smart-dca-bot",
-      },
-    },
-    {
-      title: "Moving Average Bot",
-      techStack: ["TypeScript", "Next.js", "Hyperliquid", "PostgreSQL", "Docker"],
-      description:
-        "An automated trading bot that goes long or short on Hyperliquid perps from daily moving-average crossovers, with ATR trailing stops and partial closes.",
-      link: {
-        label: "Moving Average Bot",
-        href: "https://github.com/wezzcoetzee/moving-average-bot",
+        label: "Hyperliquid Trading Bots",
+        href: "https://github.com/wezzcoetzee?tab=repositories&q=bot",
       },
     },
     {
@@ -375,25 +415,6 @@ export const RESUME_DATA = {
       link: {
         label: "BETH Stack",
         href: "https://github.com/wezzcoetzee/beth-stack",
-      },
-    },
-    {
-      title: "Printable CV",
-      techStack: ["Next.js", "React", "TypeScript", "CSS Print Styles"],
-      description:
-        "A web-based CV that can be hosted online and prints to a clean, professional PDF with optimised print styles.",
-      link: {
-        label: "View on GitHub",
-        href: "https://github.com/wezzcoetzee/printable-cv",
-      },
-    },
-    {
-      title: "My Website",
-      techStack: ["TypeScript", "Next.js", "Bun"],
-      description: "My personal website",
-      link: {
-        label: "wezzcoetzee.com",
-        href: "https://www.wezzcoetzee.com",
       },
     },
     {
