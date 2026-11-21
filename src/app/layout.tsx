@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Geist_Mono, Inter, Source_Serif_4 } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
@@ -59,13 +59,30 @@ const inter = Inter({
   display: "swap",
 });
 
+// Serif sets everything you read (profile, bullets); mono sets the detail
+// (dates, location, stack). See DESIGN.md, "The Engineer's Letter".
+const serif = Source_Serif_4({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-serif",
+});
+
+const mono = Geist_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-mono",
+});
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en-NZ" className={inter.className}>
+    <html
+      lang="en-NZ"
+      className={`${inter.className} ${serif.variable} ${mono.variable}`}
+    >
       <Script
         strategy="lazyOnload"
         src="https://www.googletagmanager.com/gtag/js?id=G-NKFR382DBD"

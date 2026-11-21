@@ -13,17 +13,17 @@ export function TimelineItem({ position }: TimelineItemProps) {
 
       <div className="flex flex-col gap-2">
         <div className="timeline-item-head flex items-baseline justify-between gap-2">
-          <h4 className="font-mono text-sm font-semibold leading-none">
+          <h4 className="font-sans text-[0.9375rem] font-semibold leading-none text-foreground">
             {position.title}
           </h4>
-          <span className="text-sm tabular-nums text-muted-foreground">
+          <span className="whitespace-nowrap font-mono text-xs tabular-nums text-muted-foreground">
             {position.start} - {position.end}
           </span>
         </div>
 
-        <ul className="ml-4 list-disc text-xs text-muted-foreground">
+        <ul className="ml-4 list-disc font-serif text-[0.9375rem] leading-normal text-prose print:text-[9.5pt] print:leading-snug">
           {position.description.map((item, i) => (
-            <li key={i} className="font-mono text-pretty">
+            <li key={i} className="text-pretty">
               {item}
             </li>
           ))}
