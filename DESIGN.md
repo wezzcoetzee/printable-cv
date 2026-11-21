@@ -143,7 +143,7 @@ A cool, near-achromatic neutral palette with a single functional green.
 
 ## 4. Elevation
 
-The system is flat. Depth comes from whitespace and 1px Hairline borders, not shadows. The single exception is the floating command-menu button on small screens (`box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25)`), which genuinely floats above content and is hidden in print.
+The system is flat. Depth comes from whitespace and 1px Hairline borders, not shadows. Nothing floats over content, on any screen size.
 
 ### Named Rules
 **The Paper Rule.** If it would not survive a laser printer, it does not belong. No shadows on content, no translucency, no blur.
@@ -153,8 +153,9 @@ The system is flat. Depth comes from whitespace and 1px Hairline borders, not sh
 Refined and restrained: components are typographic first and only take a box when grouping demands it.
 
 ### Buttons
-- **Shape:** gently rounded (6px); circular (9999px) for the floating command button.
+- **Shape:** gently rounded (6px).
 - **Icon outline (primary use):** 36px square, Sheet fill, Hairline border, Slate Note icon at 16px. Used for the contact row (email, phone, socials). Every one carries an `aria-label`.
+- **Labelled outline:** same chrome, 36px tall, icon plus a mono label. The contact row ends with one: Print.
 - **Hover / Focus:** hover fills Mist and darkens the icon to Graphite via a color transition. Focus shows a 2px Ink ring with 2px offset.
 - **Print:** the icon row is hidden and replaced by plain underlined email and phone text.
 
@@ -163,15 +164,18 @@ Refined and restrained: components are typographic first and only take a box whe
 - **Interest:** Graphite fill at 80%, Sheet text. Web only; hidden in print.
 
 ### Cards / Containers
-- **Company entry:** not a visible box. No border, no padding; just a heading, an optional mono blurb, and positions. Multi-role companies get a 2px Hairline timeline rule on the left, indented 16px, with 32px text inset (Slate Note in print for grayscale contrast).
+- **Company entry:** not a visible box. No border, no padding; just a heading, an optional mono blurb, and positions. Multi-role companies get a 2px Hairline timeline rule on the left, indented 16px, with 32px text inset (Slate Note in print for grayscale contrast). Phones drop the rule and split roles with a Hairline instead.
 - **Tile (achievements, projects):** 8px radius, Sheet background, 1px Mist border, 12px padding, laid out in a 1/2/3-column grid (3 in print).
 - **Education:** heading row with right-aligned tabular dates, then the degree in mono.
 
 ### Navigation
-- **Command menu (⌘J):** a ShadCN command dialog listing external links. On xl screens a fixed bottom hint bar shows the shortcut in a small `kbd`; below xl a floating circular button opens it. Both hidden in print.
+- **Command menu (⌘J):** a ShadCN command dialog listing external links. On xl screens a fixed bottom hint bar shows the shortcut in a small `kbd`. Below xl there is no trigger; touch users print from the contact row. Hidden in print.
 
 ### Stack line
 Each company ends with one mono line in Slate Note: a bold Ink "Stack" label, then up to 8 technologies separated by middle dots, most relevant first. Never pills; each technology stays unbroken.
+
+### Phones (below 640px)
+The page reads like a dated letter. No avatar, so the name and tagline take the full width. No timeline rule; a Hairline separates roles and each date sits above its title. Print keeps the desktop layout.
 
 ### Timeline (signature)
 The only structural ornament on the page: a vertical rule tying multiple roles at one company together, so promotions read as a single story. Each role is a sans title with right-aligned mono dates over a disc-bulleted serif list. In print a role may split between bullets, but a title never ends a page and the company header never orphans from its first role.

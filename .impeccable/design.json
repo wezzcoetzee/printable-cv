@@ -144,16 +144,10 @@
       },
       "label": {
         "displayName": "Label (mono)",
-        "purpose": "Role bullets, dates, badges, location."
+        "purpose": "Dates, badges, location, company blurbs, stack line."
       }
     },
-    "shadows": [
-      {
-        "name": "float",
-        "value": "0 25px 50px -12px rgb(0 0 0 / 0.25)",
-        "purpose": "Floating command-menu button below xl only. Never on content."
-      }
-    ],
+    "shadows": [],
     "motion": [
       {
         "name": "color-transition",
