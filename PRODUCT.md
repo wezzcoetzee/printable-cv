@@ -24,10 +24,13 @@ deliberate rather than dumped from a builder. Content lives in one config file
 
 ## Brand Personality
 
-Precise and technical. Understated confidence that lets the work speak, not the decoration.
-The mono-accented detail typography signals engineer credibility; the neutral palette and
-generous whitespace signal restraint and care. Three words: precise, credible, restrained.
-The page should read as written by someone who sweats details, because that is the pitch.
+Precise and technical, with a human voice. Understated confidence that lets the work speak,
+not the decoration, but it should read as a person rather than a spec sheet. The
+mono-accented detail typography signals engineer credibility; the neutral palette and
+generous whitespace signal restraint and care. Warmth comes from voice and tone (first-person
+copy, specific outcomes, the odd personal detail), never from color or ornament. Three words:
+precise, credible, warm-restrained. The page should read as written by someone who sweats
+details and is good to work with, because that is the pitch.
 
 ## Anti-references
 
@@ -40,6 +43,10 @@ The page should read as written by someone who sweats details, because that is t
 - **Trendy AI-landing look.** No tracked-uppercase eyebrow above every section, no
   numbered section markers, no hero-metric template, no SaaS-marketing clichés.
 
+- **Dev-portfolio cliché.** No terminal cosplay, fake code blocks, blinking cursors,
+  GitHub contribution graphs, or "Hello, World" heroes. Engineer credibility comes from the
+  work described, not from dressing the page up as an IDE.
+
 ## Design Principles
 
 - **The work is the design.** Decoration is borrowed credibility; restraint is earned
@@ -50,6 +57,8 @@ The page should read as written by someone who sweats details, because that is t
   page breaks, and what's hidden/shown in print are deliberate design decisions.
 - **Detail signals discipline.** Consistent spacing, alignment, and the mono-detail
   convention are the proof-of-craft that matches the engineer being described.
+- **A person, not a template.** Warmth lives in the words: specific, first-person, plain.
+  If a paragraph could appear on anyone's CV, rewrite it.
 - **One source of truth.** Content stays in the config file; the design adapts to the data,
   not the reverse.
 
