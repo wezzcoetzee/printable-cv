@@ -7,9 +7,14 @@ by this repo. Update via CLI (`bunx --bun shadcn@latest add [component]`), never
 
 ## Typography
 
-- **Body / UI**: Inter (loaded via `next/font/google` in `layout.tsx`)
-- **Mono content**: Tailwind `font-mono` applied to job titles, contact info, project
-  descriptions — gives a technical, code-like feel for detail text
+Three families, all loaded via `next/font/google` in `layout.tsx`:
+
+- **Inter** (default sans): name, section headings, company names, role titles.
+- **Source Serif 4** (`font-serif`, `--font-serif`): everything you read. Tagline, profile
+  paragraphs and role bullets, in the `prose` color. Print sizes: tagline 12pt, profile 10pt,
+  bullets 9.5pt.
+- **Geist Mono** (`font-mono`, `--font-mono`): detail. Dates, location, contact text, company
+  blurbs, the stack line, badges, achievement tiles.
 
 ## Palette
 
@@ -19,7 +24,8 @@ Pure neutral. No accent colors.
 |-------|-------|-----|
 | `--background` | `hsl(0 0% 100%)` | page background |
 | `--foreground` | `hsl(224 71.4% 4.1%)` | primary text |
-| `--muted-foreground` | `hsl(220 8.9% 46.1%)` | secondary text (dates, subtitles) |
+| `--muted-foreground` | `hsl(220 10% 38%)` | secondary text (dates, blurbs, stack line) |
+| `--prose` | `hsl(215 27.9% 16.9%)` | reading text (tagline, profile, bullets) |
 | `--border` | `hsl(220 13% 91%)` | card borders, dividers |
 
 CSS variable definitions are in `globals.css`. A `.dark` class block is defined but there is
