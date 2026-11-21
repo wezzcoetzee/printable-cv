@@ -5,7 +5,7 @@ export const RESUME_DATA = {
   initials: "WC",
   location: "Auckland, New Zealand, NZST",
   locationLink: "https://www.google.com/maps/place/Auckland",
-  about: "Tech Lead at IDEXX · previously Principal Engineer at Eneco",
+  about: "Tech Lead at IDEXX",
   avatarUrl: "https://avatars.githubusercontent.com/u/15249642?v=4",
   personalWebsiteUrl: "https://www.wezzcoetzee.com",
   contact: {
