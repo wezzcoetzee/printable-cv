@@ -268,13 +268,13 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "What Did I Say",
+      title: "Hearsay",
       techStack: ["Swift", "macOS", "WhisperKit", "Obsidian"],
       description:
         "A menu bar app that detects Slack, Teams and Meet calls, records only with consent, transcribes on-device with WhisperKit, and writes the notes to Obsidian.",
       link: {
-        label: "What Did I Say",
-        href: "https://github.com/wezzcoetzee/what-did-i-say",
+        label: "Hearsay",
+        href: "https://github.com/wezzcoetzee/hearsay",
       },
     },
     {
